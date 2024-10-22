@@ -1,0 +1,149 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\UTFPR\8\logica_reconfiguravel\lab\5
+Ebram
+Z1 w1714603040
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dD:\UTFPR\8\logica_reconfiguravel\lab\5
+Z5 8./bram.vhd
+Z6 F./bram.vhd
+l0
+L42
+V1hE09Lf4GATP[SZ[^im4]1
+Z7 OV;C;10.1d;51
+32
+Z8 !s108 1714692434.793000
+Z9 !s90 -reportprogress|300|-work|work|./bram.vhd|
+Z10 !s107 ./bram.vhd|
+Z11 o-work work -O0
+Z12 tExplicit 1
+!s100 `zEEY<bFmf4K`K<=nBOLD1
+!i10b 1
+Asyn
+R2
+R3
+DEx4 work 4 bram 0 22 1hE09Lf4GATP[SZ[^im4]1
+l86
+L54
+VWUI<P04TUJd@hAP]jG0UK2
+R7
+32
+R8
+R9
+R10
+R11
+R12
+!s100 FQQR^8;F<Y=V=BaOl^FD32
+!i10b 1
+Efifo
+Z13 w1714618606
+R2
+R3
+R4
+Z14 8./fifo.vhd
+Z15 F./fifo.vhd
+l0
+L42
+VPbeM]LA[`<Y`zoRmTg1JO2
+R7
+32
+Z16 !s108 1714692435.139000
+Z17 !s90 -reportprogress|300|-work|work|./fifo.vhd|
+Z18 !s107 ./fifo.vhd|
+R11
+R12
+!s100 i<Pmen[YldBa<786K^Y@>3
+!i10b 1
+Asyn
+R2
+R3
+DEx4 work 4 fifo 0 22 PbeM]LA[`<Y`zoRmTg1JO2
+l94
+L58
+VL`k;^DW@R8e00`]Ybaa<B3
+R7
+32
+R16
+R17
+R18
+R11
+R12
+!s100 KAaPYTA?S1gKBEOTSU8ze1
+!i10b 1
+Elab5
+Z19 w1714692126
+Z20 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R2
+R3
+R4
+Z21 8./lab5.vhd
+Z22 F./lab5.vhd
+l0
+L5
+Veez^FPL9]nA0ChfmRna@11
+R7
+32
+Z23 !s108 1714692435.368000
+Z24 !s90 -reportprogress|300|-work|work|./lab5.vhd|
+Z25 !s107 ./lab5.vhd|
+R11
+R12
+!s100 _lTEH;D6;a`AgeH8Sa1lM3
+!i10b 1
+Aarch_lab5
+R20
+R2
+R3
+DEx4 work 4 lab5 0 22 eez^FPL9]nA0ChfmRna@11
+l75
+L22
+V_3z<G5IVG_2NaALf9hiK00
+R7
+32
+R23
+R24
+R25
+R11
+R12
+!s100 R>9Y4EZhiU3g`?jddnz6o2
+!i10b 1
+Elab5_tb
+Z26 w1714692338
+R20
+R2
+R3
+R4
+Z27 8./lab5_tb.vhd
+Z28 F./lab5_tb.vhd
+l0
+L5
+VEFW<<ePEY>lXYYPkd`U8Y1
+!s100 :0Qc?^9MbXKC6[cBe447a3
+R7
+32
+!i10b 1
+Z29 !s108 1714692435.585000
+Z30 !s90 -reportprogress|300|-work|work|./lab5_tb.vhd|
+Z31 !s107 ./lab5_tb.vhd|
+R11
+R12
+Aarch_lab5_tb
+R20
+R2
+R3
+Z32 DEx4 work 7 lab5_tb 0 22 EFW<<ePEY>lXYYPkd`U8Y1
+l46
+L8
+V7_7I[6^2KF>VP=^6BjJ9^2
+!s100 Zn5<d@GZe4jXXkGIZaU;i3
+R7
+32
+!i10b 1
+R29
+R30
+R31
+R11
+R12

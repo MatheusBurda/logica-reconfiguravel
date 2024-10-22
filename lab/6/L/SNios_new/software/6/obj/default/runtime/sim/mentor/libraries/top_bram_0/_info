@@ -1,0 +1,110 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\L\SNios_new\software\6\obj\default\runtime\sim\mentor
+Ebram
+Z1 w1716939720
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\L\SNios_new\software\6\obj\default\runtime\sim\mentor
+Z5 8C:/L/SNios_new/HSys/testbench/HSys_tb/simulation/submodules/bram.vhd
+Z6 FC:/L/SNios_new/HSys/testbench/HSys_tb/simulation/submodules/bram.vhd
+l0
+L42
+V:z3=P87A9KN:;2fD;PO1h2
+!s100 `zEEY<bFmf4K`K<=nBOLD1
+Z7 OV;C;10.1d;51
+32
+!i10b 1
+Z8 !s108 1716940560.802000
+Z9 !s90 -reportprogress|300|C:/L/SNios_new/HSys/testbench/HSys_tb/simulation/submodules/bram.vhd|-work|top_bram_0|
+Z10 !s107 C:/L/SNios_new/HSys/testbench/HSys_tb/simulation/submodules/bram.vhd|
+Z11 o-work top_bram_0 -O0
+Z12 tExplicit 1
+Asyn
+R2
+R3
+Z13 DEx4 work 4 bram 0 22 :z3=P87A9KN:;2fD;PO1h2
+l85
+L54
+Z14 VQkWV]8fVHji1>[RiJdh253
+Z15 !s100 X]C6QQ3P?d95]lh<TP09E2
+R7
+32
+!i10b 1
+R8
+R9
+R10
+R11
+R12
+Ereg32
+R1
+R2
+R3
+R4
+Z16 8C:/L/SNios_new/HSys/testbench/HSys_tb/simulation/submodules/reg32.vhd
+Z17 FC:/L/SNios_new/HSys/testbench/HSys_tb/simulation/submodules/reg32.vhd
+l0
+L4
+V7bBd1UXcd:loab2a]I5Q@2
+R7
+32
+Z18 !s108 1716940560.728000
+Z19 !s90 -reportprogress|300|C:/L/SNios_new/HSys/testbench/HSys_tb/simulation/submodules/reg32.vhd|-work|top_bram_0|
+Z20 !s107 C:/L/SNios_new/HSys/testbench/HSys_tb/simulation/submodules/reg32.vhd|
+R11
+R12
+!s100 AdQ?1GEBKQmgnbaOLB`oL2
+!i10b 1
+Abehavior
+R2
+R3
+DEx4 work 5 reg32 0 22 7bBd1UXcd:loab2a]I5Q@2
+l21
+L11
+V9Q;hzlG:`J?_``>ZW4J`01
+!s100 jz?b2?I5C>lVEUl_lJdmR1
+R7
+32
+R18
+R19
+R20
+R11
+R12
+!i10b 1
+Etop_bram
+R1
+R2
+R3
+R4
+Z21 8C:/L/SNios_new/HSys/testbench/HSys_tb/simulation/submodules/top_BRAM.vhd
+Z22 FC:/L/SNios_new/HSys/testbench/HSys_tb/simulation/submodules/top_BRAM.vhd
+l0
+L4
+VMUN<[nhC>BaJeggR[2;Vb3
+R7
+32
+Z23 !s108 1716940560.658000
+Z24 !s90 -reportprogress|300|C:/L/SNios_new/HSys/testbench/HSys_tb/simulation/submodules/top_BRAM.vhd|-work|top_bram_0|
+Z25 !s107 C:/L/SNios_new/HSys/testbench/HSys_tb/simulation/submodules/top_BRAM.vhd|
+R11
+R12
+!s100 bRzEY4a?dWVa`k4z^126L1
+!i10b 1
+Ay
+R2
+R3
+DEx4 work 8 top_bram 0 22 MUN<[nhC>BaJeggR[2;Vb3
+l45
+L17
+V_O>PiRoOIB4?[XQDkIgX<0
+R7
+32
+R23
+R24
+R25
+R11
+R12
+!s100 eZ@Y<NTXk7_0Df3oDBlm:3
+!i10b 1

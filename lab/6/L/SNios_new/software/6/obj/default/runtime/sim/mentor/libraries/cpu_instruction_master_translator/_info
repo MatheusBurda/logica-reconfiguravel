@@ -1,0 +1,28 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\L\SNios_new\software\6\obj\default\runtime\sim\mentor
+vh/SkTmwpnXlf33rzlEYQUb7EeaI51SuLGlxbE22m1as=
+DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+!i10b 0
+!s100 _<RPg^CTg]_hXjJzo^zNh2
+I3b4]Rj_6Qa49DI4az`<??3
+V0KIH7<bW[IFhHJBzB4US?0
+xsip
+!i8a 1248386160
+!s105 altera_merlin_master_translator_sv_unit
+S1
+d.
+Fnofile
+L0 38
+Z1 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1716940560.217000
+!s107 C:/L/SNios_new/HSys/testbench/HSys_tb/simulation/submodules/mentor/altera_merlin_master_translator.sv|
+!s90 -reportprogress|300|-sv|C:/L/SNios_new/HSys/testbench/HSys_tb/simulation/submodules/mentor/altera_merlin_master_translator.sv|-work|cpu_instruction_master_translator|
+!s101 -O0
+o-sv -work cpu_instruction_master_translator -O0
+n7c1e352

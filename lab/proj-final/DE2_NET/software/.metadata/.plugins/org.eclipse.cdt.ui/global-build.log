@@ -1,0 +1,1681 @@
+
+**** Build of configuration Nios II for project rtc_socket ****
+
+make all 
+      1 [main] sh 17300 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 13404 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 17468 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Building ../rtc_socket_bsp/
+make --no-print-directory -C ../rtc_socket_bsp/
+      1 [main] pwd 15912 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 15476 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 17000 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      1 [main] echo 312 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Compiling LCD.c to obj/default/LCD.o
+      1 [main] mkdir 9560 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/LCD.o LCD.c
+LCD.c: In function 'LCD_Test':
+LCD.c:51: warning: unused variable 'Frase'
+Info: Compiling SSS_DE2_115.c to obj/default/SSS_DE2_115.o
+      1 [main] echo 12168 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/SSS_DE2_115.o SSS_DE2_115.c
+      1 [main] mkdir 15480 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Compiling alt_error_handler.c to obj/default/alt_error_handler.o
+      1 [main] echo 17036 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/alt_error_handler.o alt_error_handler.c
+the public mailing list cygwin@cygwin.com
+Info: Compiling dm9000a.c to obj/default/dm9000a.o
+      1 [main] mkdir 8468 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/dm9000a.o dm9000a.c
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 17344 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 18156 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+dm9000a.c: In function 'prep_dm9000a':
+dm9000a.c:186: warning: pointer targets in assignment differ in signedness
+dm9000a.c:204: warning: pointer targets in passing argument 2 of 'get_mac_addr' differ in signedness
+dm9000a.c: In function 'dm9000a_isr':
+dm9000a.c:281: warning: pointer targets in initialization differ in signedness
+dm9000a.c: In function 'dm9ka_init':
+dm9000a.c:379: warning: pointer targets in passing argument 1 of 'dm9000a_reset' differ in signedness
+dm9000a.c:382: warning: implicit declaration of function 'alt_irq_register'
+dm9000a.c: In function 'dm9ka_pkt_send':
+dm9000a.c:453: warning: pointer targets in passing argument 1 of 'TransmitPacket' differ in signedness
+      1 [main] echo 17564 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Compiling iniche_init.c to obj/default/iniche_init.o
+      3 [main] mkdir 18144 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/iniche_init.o iniche_init.c
+iniche_init.c:24:23: warning: arpa/inet.h: No such file or directory
+Info: Compiling led.c to obj/default/led.o
+iniche_init.c:25:24: warning: netinet/in.h: No such file or directory
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/led.o led.c
+iniche_init.c:29:24: warning: sys/socket.h: No such file or directory
+iniche_init.c: In function 'SSSInitialTask':
+iniche_init.c:130: warning: implicit declaration of function 'inet_addr'
+iniche_init.c:152: warning: unused variable 'MAX_VALUE'
+iniche_init.c: In function 'main':
+iniche_init.c:220: warning: unused variable 'error_code2'
+      2 [main] echo 16244 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 5000 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Compiling network_utilities.c to obj/default/network_utilities.o
+the public mailing list cygwin@cygwin.com
+led.c: In function 'LED7SegLightshowTask':
+led.c:97: warning: unused variable 'led_7_seg_val'
+      2 [main] echo 10972 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/network_utilities.o network_utilities.c
+the public mailing list cygwin@cygwin.com
+Info: Compiling simple_socket_server.c to obj/default/simple_socket_server.o
+      2 [main] mkdir 13448 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/simple_socket_server.o simple_socket_server.c
+      1 [main] echo 5224 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 17944 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+simple_socket_server.c: In function 'sss_send_menu':
+simple_socket_server.c:194: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:195: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:196: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:197: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:198: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:199: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:200: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:201: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:203: warning: pointer targets in passing argument 2 of 't_send' differ in signedness
+simple_socket_server.c: In function 'sss_exec_command':
+simple_socket_server.c:295: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:298: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:310: warning: pointer targets in passing argument 2 of 't_send' differ in signedness
+simple_socket_server.c: In function 'sss_handle_receive':
+simple_socket_server.c:349: warning: pointer targets in passing argument 1 of 'strchr' differ in signedness
+simple_socket_server.c:349: warning: pointer targets in assignment differ in signedness
+simple_socket_server.c:359: warning: pointer targets in passing argument 2 of 't_recv' differ in signedness
+      1 [main] echo 3848 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Compiling tse_my_system.c to obj/default/tse_my_system.o
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 3104 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/tse_my_system.o tse_my_system.c
+      2 [main] true 9072 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Linking rtc_socket.elf
+      1 [main] echo 1096 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-g++  -T'../rtc_socket_bsp//linker.x' -msys-crt0='../rtc_socket_bsp//obj/HAL/src/crt0.o' -msys-lib=ucosii_bsp -L../rtc_socket_bsp/   -Wl,-Map=rtc_socket.map   -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o rtc_socket.elf obj/default/LCD.o obj/default/SSS_DE2_115.o obj/default/alt_error_handler.o obj/default/dm9000a.o obj/default/iniche_init.o obj/default/led.o obj/default/network_utilities.o obj/default/simple_socket_server.o obj/default/tse_my_system.o -lm 
+the public mailing list cygwin@cygwin.com
+nios2-elf-insert rtc_socket.elf --thread_model ucosii --cpu_name cpu_0 --qsys true --simulation_enabled false --id 0 --sidp 0x1a82108 --timestamp 1720014886 --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name system_0 --quartus_project_dir "D:/UTFPR/8/logica_reconfiguravel/lab/proj-final/DE2_NET" --jdi D:/UTFPR/8/logica_reconfiguravel/lab/proj-final/DE2_NET/DE2_NET.jdi --sopcinfo D:/UTFPR/8/logica_reconfiguravel/lab/proj-final/DE2_NET/system_0.sopcinfo
+      1 [main] sh 15328 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] uname 6944 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 18280 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: (rtc_socket.elf) 359 KBytes program size (code + initialized data).
+Info:                  7832 KBytes free for stack + heap.
+      1 [main] echo 2008 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Creating rtc_socket.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source rtc_socket.elf >rtc_socket.objdump
+      2 [main] sh 7048 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 9904 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[rtc_socket build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project rtc_socket ****
+
+make all 
+      1 [main] sh 16204 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 2312 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 13968 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Building ../rtc_socket_bsp/
+make --no-print-directory -C ../rtc_socket_bsp/
+      1 [main] pwd 18416 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 14356 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 11004 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      1 [main] echo 8416 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Compiling LCD.c to obj/default/LCD.o
+      1 [main] mkdir 15884 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/LCD.o LCD.c
+LCD.c: In function 'LCD_Test':
+LCD.c:51: warning: unused variable 'Frase'
+Info: Compiling SSS_DE2_115.c to obj/default/SSS_DE2_115.o
+      1 [main] echo 13016 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/SSS_DE2_115.o SSS_DE2_115.c
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 13548 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Compiling alt_error_handler.c to obj/default/alt_error_handler.o
+      1 [main] echo 7920 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/alt_error_handler.o alt_error_handler.c
+the public mailing list cygwin@cygwin.com
+Info: Compiling dm9000a.c to obj/default/dm9000a.o
+      1 [main] mkdir 15292 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/dm9000a.o dm9000a.c
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 16856 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 4160 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+dm9000a.c: In function 'prep_dm9000a':
+dm9000a.c:186: warning: pointer targets in assignment differ in signedness
+dm9000a.c:204: warning: pointer targets in passing argument 2 of 'get_mac_addr' differ in signedness
+dm9000a.c: In function 'dm9000a_isr':
+dm9000a.c:281: warning: pointer targets in initialization differ in signedness
+dm9000a.c: In function 'dm9ka_init':
+dm9000a.c:379: warning: pointer targets in passing argument 1 of 'dm9000a_reset' differ in signedness
+dm9000a.c:382: warning: implicit declaration of function 'alt_irq_register'
+dm9000a.c: In function 'dm9ka_pkt_send':
+dm9000a.c:453: warning: pointer targets in passing argument 1 of 'TransmitPacket' differ in signedness
+      1 [main] echo 3360 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Compiling iniche_init.c to obj/default/iniche_init.o
+      1 [main] mkdir 13216 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/iniche_init.o iniche_init.c
+the public mailing list cygwin@cygwin.com
+iniche_init.c:24:23: warning: arpa/inet.h: No such file or directory
+iniche_init.c:25:24: warning: netinet/in.h: No such file or directory
+iniche_init.c:29:24: warning: sys/socket.h: No such file or directory
+iniche_init.c: In function 'SSSInitialTask':
+iniche_init.c:130: warning: implicit declaration of function 'inet_addr'
+Info: Compiling led.c to obj/default/led.o
+iniche_init.c:152: warning: unused variable 'MAX_VALUE'
+iniche_init.c: In function 'main':
+iniche_init.c:220: warning: unused variable 'error_code2'
+      1 [main] echo 13632 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 9684 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/led.o led.c
+led.c: In function 'LED7SegLightshowTask':
+Info: Compiling network_utilities.c to obj/default/network_utilities.o
+led.c:97: warning: unused variable 'led_7_seg_val'
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/network_utilities.o network_utilities.c
+      1 [main] echo 16208 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Compiling simple_socket_server.c to obj/default/simple_socket_server.o
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/simple_socket_server.o simple_socket_server.c
+      2 [main] mkdir 6584 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 12020 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+     18 [main] mkdir 11820 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+simple_socket_server.c: In function 'sss_send_menu':
+simple_socket_server.c:194: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:195: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:196: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:197: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:198: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:199: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:200: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:201: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:203: warning: pointer targets in passing argument 2 of 't_send' differ in signedness
+simple_socket_server.c: In function 'sss_exec_command':
+simple_socket_server.c:295: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:298: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:310: warning: pointer targets in passing argument 2 of 't_send' differ in signedness
+simple_socket_server.c: In function 'sss_handle_receive':
+simple_socket_server.c:349: warning: pointer targets in passing argument 1 of 'strchr' differ in signedness
+Info: Compiling tse_my_system.c to obj/default/tse_my_system.o
+simple_socket_server.c:349: warning: pointer targets in assignment differ in signedness
+simple_socket_server.c:359: warning: pointer targets in passing argument 2 of 't_recv' differ in signedness
+      2 [main] echo 17744 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/tse_my_system.o tse_my_system.c
+the public mailing list cygwin@cygwin.com
+Info: Linking rtc_socket.elf
+      1 [main] mkdir 12772 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-g++  -T'../rtc_socket_bsp//linker.x' -msys-crt0='../rtc_socket_bsp//obj/HAL/src/crt0.o' -msys-lib=ucosii_bsp -L../rtc_socket_bsp/   -Wl,-Map=rtc_socket.map   -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o rtc_socket.elf obj/default/LCD.o obj/default/SSS_DE2_115.o obj/default/alt_error_handler.o obj/default/dm9000a.o obj/default/iniche_init.o obj/default/led.o obj/default/network_utilities.o obj/default/simple_socket_server.o obj/default/tse_my_system.o -lm 
+      1 [main] true 5436 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-insert rtc_socket.elf --thread_model ucosii --cpu_name cpu_0 --qsys true --simulation_enabled false --id 0 --sidp 0x1a82108 --timestamp 1720014886 --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name system_0 --quartus_project_dir "D:/UTFPR/8/logica_reconfiguravel/lab/proj-final/DE2_NET" --jdi D:/UTFPR/8/logica_reconfiguravel/lab/proj-final/DE2_NET/DE2_NET.jdi --sopcinfo D:/UTFPR/8/logica_reconfiguravel/lab/proj-final/DE2_NET/system_0.sopcinfo
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 16324 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 15320 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] uname 7248 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 5772 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: (rtc_socket.elf) 359 KBytes program size (code + initialized data).
+Info:                  7832 KBytes free for stack + heap.
+      1 [main] echo 17036 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Creating rtc_socket.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source rtc_socket.elf >rtc_socket.objdump
+      1 [main] sh 7232 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 15740 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[rtc_socket build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project rtc_socket ****
+
+make all 
+      1 [main] sh 9464 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 14064 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 10484 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Building ../rtc_socket_bsp/
+the public mailing list cygwin@cygwin.com
+make --no-print-directory -C ../rtc_socket_bsp/
+      1 [main] pwd 18228 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 11244 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 9344 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      1 [main] echo 10176 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Compiling LCD.c to obj/default/LCD.o
+      1 [main] mkdir 7616 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/LCD.o LCD.c
+LCD.c: In function 'LCD_Test':
+Info: Compiling SSS_DE2_115.c to obj/default/SSS_DE2_115.o
+LCD.c:51: warning: unused variable 'Frase'
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/SSS_DE2_115.o SSS_DE2_115.c
+      1 [main] echo 3428 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Compiling alt_error_handler.c to obj/default/alt_error_handler.o
+      1 [main] mkdir 12384 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/alt_error_handler.o alt_error_handler.c
+      1 [main] echo 8760 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Compiling dm9000a.c to obj/default/dm9000a.o
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/dm9000a.o dm9000a.c
+      2 [main] mkdir 15480 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 14920 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 1976 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+dm9000a.c: In function 'prep_dm9000a':
+dm9000a.c:186: warning: pointer targets in assignment differ in signedness
+dm9000a.c:204: warning: pointer targets in passing argument 2 of 'get_mac_addr' differ in signedness
+dm9000a.c: In function 'dm9000a_isr':
+dm9000a.c:281: warning: pointer targets in initialization differ in signedness
+dm9000a.c: In function 'dm9ka_init':
+dm9000a.c:379: warning: pointer targets in passing argument 1 of 'dm9000a_reset' differ in signedness
+dm9000a.c:382: warning: implicit declaration of function 'alt_irq_register'
+dm9000a.c: In function 'dm9ka_pkt_send':
+dm9000a.c:453: warning: pointer targets in passing argument 1 of 'TransmitPacket' differ in signedness
+      1 [main] echo 11984 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Compiling iniche_init.c to obj/default/iniche_init.o
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 4084 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/iniche_init.o iniche_init.c
+iniche_init.c:24:23: warning: arpa/inet.h: No such file or directory
+Info: Compiling led.c to obj/default/led.o
+iniche_init.c:25:24: warning: netinet/in.h: No such file or directory
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/led.o led.c
+iniche_init.c:29:24: warning: sys/socket.h: No such file or directory
+iniche_init.c: In function 'SSSInitialTask':
+iniche_init.c:130: warning: implicit declaration of function 'inet_addr'
+iniche_init.c:152: warning: unused variable 'MAX_VALUE'
+iniche_init.c: In function 'main':
+iniche_init.c:220: warning: unused variable 'error_code2'
+      1 [main] echo 9976 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 15088 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Compiling network_utilities.c to obj/default/network_utilities.o
+the public mailing list cygwin@cygwin.com
+led.c: In function 'LED7SegLightshowTask':
+led.c:97: warning: unused variable 'led_7_seg_val'
+      2 [main] echo 17356 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 7932 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/network_utilities.o network_utilities.c
+the public mailing list cygwin@cygwin.com
+Info: Compiling simple_socket_server.c to obj/default/simple_socket_server.o
+      1 [main] echo 14440 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 12336 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/simple_socket_server.o simple_socket_server.c
+simple_socket_server.c: In function 'sss_send_menu':
+simple_socket_server.c:194: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:195: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:196: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:197: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:198: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:199: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:200: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:201: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:203: warning: pointer targets in passing argument 2 of 't_send' differ in signedness
+simple_socket_server.c: In function 'sss_exec_command':
+simple_socket_server.c:295: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:298: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:310: warning: pointer targets in passing argument 2 of 't_send' differ in signedness
+simple_socket_server.c: In function 'sss_handle_receive':
+simple_socket_server.c:349: warning: pointer targets in passing argument 1 of 'strchr' differ in signedness
+simple_socket_server.c:349: warning: pointer targets in assignment differ in signedness
+Info: Compiling tse_my_system.c to obj/default/tse_my_system.o
+simple_socket_server.c:359: warning: pointer targets in passing argument 2 of 't_recv' differ in signedness
+      1 [main] echo 16800 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/tse_my_system.o tse_my_system.c
+the public mailing list cygwin@cygwin.com
+Info: Linking rtc_socket.elf
+      2 [main] mkdir 8432 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] true 15108 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-g++  -T'../rtc_socket_bsp//linker.x' -msys-crt0='../rtc_socket_bsp//obj/HAL/src/crt0.o' -msys-lib=ucosii_bsp -L../rtc_socket_bsp/   -Wl,-Map=rtc_socket.map   -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o rtc_socket.elf obj/default/LCD.o obj/default/SSS_DE2_115.o obj/default/alt_error_handler.o obj/default/dm9000a.o obj/default/iniche_init.o obj/default/led.o obj/default/network_utilities.o obj/default/simple_socket_server.o obj/default/tse_my_system.o -lm 
+the public mailing list cygwin@cygwin.com
+nios2-elf-insert rtc_socket.elf --thread_model ucosii --cpu_name cpu_0 --qsys true --simulation_enabled false --id 0 --sidp 0x1a82108 --timestamp 1720014886 --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name system_0 --quartus_project_dir "D:/UTFPR/8/logica_reconfiguravel/lab/proj-final/DE2_NET" --jdi D:/UTFPR/8/logica_reconfiguravel/lab/proj-final/DE2_NET/DE2_NET.jdi --sopcinfo D:/UTFPR/8/logica_reconfiguravel/lab/proj-final/DE2_NET/system_0.sopcinfo
+      1 [main] echo 6008 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 2972 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] uname 12468 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 4612 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: (rtc_socket.elf) 359 KBytes program size (code + initialized data).
+Info:                  7832 KBytes free for stack + heap.
+      1 [main] echo 8108 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Creating rtc_socket.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source rtc_socket.elf >rtc_socket.objdump
+      1 [main] sh 13652 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 4024 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[rtc_socket build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project rtc_socket ****
+
+make all 
+      1 [main] sh 7200 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 6348 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 15336 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Building ../rtc_socket_bsp/
+make --no-print-directory -C ../rtc_socket_bsp/
+      1 [main] pwd 10548 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 16624 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 2376 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      1 [main] echo 788 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Compiling LCD.c to obj/default/LCD.o
+      1 [main] mkdir 1588 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/LCD.o LCD.c
+the public mailing list cygwin@cygwin.com
+Info: Compiling SSS_DE2_115.c to obj/default/SSS_DE2_115.o
+LCD.c: In function 'LCD_Test':
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/SSS_DE2_115.o SSS_DE2_115.c
+LCD.c:51: warning: unused variable 'Frase'
+Info: Compiling alt_error_handler.c to obj/default/alt_error_handler.o
+      1 [main] echo 13532 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/alt_error_handler.o alt_error_handler.c
+the public mailing list cygwin@cygwin.com
+Info: Compiling dm9000a.c to obj/default/dm9000a.o
+      1 [main] mkdir 16956 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 14492 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/dm9000a.o dm9000a.c
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 17868 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 17192 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 17612 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+dm9000a.c: In function 'prep_dm9000a':
+dm9000a.c:186: warning: pointer targets in assignment differ in signedness
+dm9000a.c:204: warning: pointer targets in passing argument 2 of 'get_mac_addr' differ in signedness
+dm9000a.c: In function 'dm9000a_isr':
+dm9000a.c:281: warning: pointer targets in initialization differ in signedness
+dm9000a.c: In function 'dm9ka_init':
+dm9000a.c:379: warning: pointer targets in passing argument 1 of 'dm9000a_reset' differ in signedness
+dm9000a.c:382: warning: implicit declaration of function 'alt_irq_register'
+dm9000a.c: In function 'dm9ka_pkt_send':
+dm9000a.c:453: warning: pointer targets in passing argument 1 of 'TransmitPacket' differ in signedness
+      1 [main] echo 3760 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Compiling iniche_init.c to obj/default/iniche_init.o
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 5976 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/iniche_init.o iniche_init.c
+iniche_init.c:24:23: warning: arpa/inet.h: No such file or directory
+Info: Compiling led.c to obj/default/led.o
+iniche_init.c:25:24: warning: netinet/in.h: No such file or directory
+iniche_init.c:29:24: warning: sys/socket.h: No such file or directory
+iniche_init.c: In function 'SSSInitialTask':
+iniche_init.c:130: warning: implicit declaration of function 'inet_addr'
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/led.o led.c
+iniche_init.c:152: warning: unused variable 'MAX_VALUE'
+Info: Compiling network_utilities.c to obj/default/network_utilities.o
+iniche_init.c: In function 'main':
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/network_utilities.o network_utilities.c
+iniche_init.c:220: warning: unused variable 'error_code2'
+      2 [main] echo 3292 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 4484 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+led.c: In function 'LED7SegLightshowTask':
+led.c:97: warning: unused variable 'led_7_seg_val'
+      1 [main] echo 8832 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Compiling simple_socket_server.c to obj/default/simple_socket_server.o
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 8064 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 1336 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/simple_socket_server.o simple_socket_server.c
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 11108 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+simple_socket_server.c: In function 'sss_send_menu':
+simple_socket_server.c:194: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:195: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:196: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:197: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:198: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:199: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:200: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:201: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:203: warning: pointer targets in passing argument 2 of 't_send' differ in signedness
+simple_socket_server.c: In function 'sss_exec_command':
+simple_socket_server.c:295: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:298: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:310: warning: pointer targets in passing argument 2 of 't_send' differ in signedness
+simple_socket_server.c: In function 'sss_handle_receive':
+simple_socket_server.c:349: warning: pointer targets in passing argument 1 of 'strchr' differ in signedness
+simple_socket_server.c:349: warning: pointer targets in assignment differ in signedness
+Info: Compiling tse_my_system.c to obj/default/tse_my_system.o
+simple_socket_server.c:359: warning: pointer targets in passing argument 2 of 't_recv' differ in signedness
+      1 [main] echo 16704 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 12440 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/tse_my_system.o tse_my_system.c
+      1 [main] true 3800 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Linking rtc_socket.elf
+the public mailing list cygwin@cygwin.com
+nios2-elf-g++  -T'../rtc_socket_bsp//linker.x' -msys-crt0='../rtc_socket_bsp//obj/HAL/src/crt0.o' -msys-lib=ucosii_bsp -L../rtc_socket_bsp/   -Wl,-Map=rtc_socket.map   -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o rtc_socket.elf obj/default/LCD.o obj/default/SSS_DE2_115.o obj/default/alt_error_handler.o obj/default/dm9000a.o obj/default/iniche_init.o obj/default/led.o obj/default/network_utilities.o obj/default/simple_socket_server.o obj/default/tse_my_system.o -lm 
+      1 [main] echo 13620 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-insert rtc_socket.elf --thread_model ucosii --cpu_name cpu_0 --qsys true --simulation_enabled false --id 0 --sidp 0x1a82108 --timestamp 1720014886 --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name system_0 --quartus_project_dir "D:/UTFPR/8/logica_reconfiguravel/lab/proj-final/DE2_NET" --jdi D:/UTFPR/8/logica_reconfiguravel/lab/proj-final/DE2_NET/DE2_NET.jdi --sopcinfo D:/UTFPR/8/logica_reconfiguravel/lab/proj-final/DE2_NET/system_0.sopcinfo
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 14164 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] uname 8536 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 17464 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: (rtc_socket.elf) 359 KBytes program size (code + initialized data).
+Info:                  7832 KBytes free for stack + heap.
+      2 [main] echo 15552 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Creating rtc_socket.objdump
+the public mailing list cygwin@cygwin.com
+nios2-elf-objdump --disassemble --syms --all-header --source rtc_socket.elf >rtc_socket.objdump
+      1 [main] sh 14092 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 7864 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[rtc_socket build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project rtc_socket ****
+
+make all 
+      1 [main] sh 7544 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 12256 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 13332 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Building ../rtc_socket_bsp/
+make --no-print-directory -C ../rtc_socket_bsp/
+      1 [main] pwd 9340 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 4160 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 4764 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      1 [main] echo 8 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Compiling LCD.c to obj/default/LCD.o
+      1 [main] mkdir 9016 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/LCD.o LCD.c
+the public mailing list cygwin@cygwin.com
+Info: Compiling SSS_DE2_115.c to obj/default/SSS_DE2_115.o
+LCD.c: In function 'LCD_Test':
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/SSS_DE2_115.o SSS_DE2_115.c
+LCD.c:51: warning: unused variable 'Frase'
+Info: Compiling alt_error_handler.c to obj/default/alt_error_handler.o
+      1 [main] echo 17288 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/alt_error_handler.o alt_error_handler.c
+the public mailing list cygwin@cygwin.com
+Info: Compiling dm9000a.c to obj/default/dm9000a.o
+      1 [main] mkdir 11720 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 3624 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 1316 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/dm9000a.o dm9000a.c
+      1 [main] echo 7600 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 6400 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+dm9000a.c: In function 'prep_dm9000a':
+dm9000a.c:186: warning: pointer targets in assignment differ in signedness
+dm9000a.c:204: warning: pointer targets in passing argument 2 of 'get_mac_addr' differ in signedness
+dm9000a.c: In function 'dm9000a_isr':
+dm9000a.c:281: warning: pointer targets in initialization differ in signedness
+dm9000a.c: In function 'dm9ka_init':
+dm9000a.c:379: warning: pointer targets in passing argument 1 of 'dm9000a_reset' differ in signedness
+dm9000a.c:382: warning: implicit declaration of function 'alt_irq_register'
+dm9000a.c: In function 'dm9ka_pkt_send':
+dm9000a.c:453: warning: pointer targets in passing argument 1 of 'TransmitPacket' differ in signedness
+      1 [main] echo 11704 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Compiling iniche_init.c to obj/default/iniche_init.o
+      1 [main] mkdir 12768 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/iniche_init.o iniche_init.c
+iniche_init.c:24:23: warning: arpa/inet.h: No such file or directory
+Info: Compiling led.c to obj/default/led.o
+iniche_init.c:25:24: warning: netinet/in.h: No such file or directory
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/led.o led.c
+iniche_init.c:29:24: warning: sys/socket.h: No such file or directory
+iniche_init.c: In function 'SSSInitialTask':
+iniche_init.c:130: warning: implicit declaration of function 'inet_addr'
+iniche_init.c:152: warning: unused variable 'MAX_VALUE'
+iniche_init.c: In function 'main':
+iniche_init.c:222: warning: unused variable 'error_code2'
+      1 [main] echo 5824 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 12148 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+led.c: In function 'LED7SegLightshowTask':
+led.c:97: warning: unused variable 'led_7_seg_val'
+      1 [main] echo 13368 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Compiling network_utilities.c to obj/default/network_utilities.o
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 12348 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/network_utilities.o network_utilities.c
+the public mailing list cygwin@cygwin.com
+Info: Compiling simple_socket_server.c to obj/default/simple_socket_server.o
+      1 [main] echo 5524 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/simple_socket_server.o simple_socket_server.c
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 3848 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+simple_socket_server.c: In function 'sss_send_menu':
+simple_socket_server.c:194: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:195: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:196: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:197: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:198: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:199: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:200: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:201: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:203: warning: pointer targets in passing argument 2 of 't_send' differ in signedness
+simple_socket_server.c: In function 'sss_exec_command':
+simple_socket_server.c:295: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:298: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:310: warning: pointer targets in passing argument 2 of 't_send' differ in signedness
+simple_socket_server.c: In function 'sss_handle_receive':
+simple_socket_server.c:349: warning: pointer targets in passing argument 1 of 'strchr' differ in signedness
+simple_socket_server.c:349: warning: pointer targets in assignment differ in signedness
+simple_socket_server.c:359: warning: pointer targets in passing argument 2 of 't_recv' differ in signedness
+      1 [main] echo 7680 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Compiling tse_my_system.c to obj/default/tse_my_system.o
+      1 [main] mkdir 17504 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/tse_my_system.o tse_my_system.c
+Info: Linking rtc_socket.elf
+      1 [main] true 8636 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-g++  -T'../rtc_socket_bsp//linker.x' -msys-crt0='../rtc_socket_bsp//obj/HAL/src/crt0.o' -msys-lib=ucosii_bsp -L../rtc_socket_bsp/   -Wl,-Map=rtc_socket.map   -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o rtc_socket.elf obj/default/LCD.o obj/default/SSS_DE2_115.o obj/default/alt_error_handler.o obj/default/dm9000a.o obj/default/iniche_init.o obj/default/led.o obj/default/network_utilities.o obj/default/simple_socket_server.o obj/default/tse_my_system.o -lm 
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 5764 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-insert rtc_socket.elf --thread_model ucosii --cpu_name cpu_0 --qsys true --simulation_enabled false --id 0 --sidp 0x1a82108 --timestamp 1720014886 --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name system_0 --quartus_project_dir "D:/UTFPR/8/logica_reconfiguravel/lab/proj-final/DE2_NET" --jdi D:/UTFPR/8/logica_reconfiguravel/lab/proj-final/DE2_NET/DE2_NET.jdi --sopcinfo D:/UTFPR/8/logica_reconfiguravel/lab/proj-final/DE2_NET/system_0.sopcinfo
+      1 [main] sh 2304 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] uname 15476 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 13844 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: (rtc_socket.elf) 359 KBytes program size (code + initialized data).
+Info:                  7832 KBytes free for stack + heap.
+      1 [main] echo 12580 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Creating rtc_socket.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source rtc_socket.elf >rtc_socket.objdump
+      2 [main] sh 8960 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 8380 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[rtc_socket build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project rtc_socket ****
+
+make all 
+      1 [main] sh 12996 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 2692 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      4 [main] echo 7136 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Building ../rtc_socket_bsp/
+the public mailing list cygwin@cygwin.com
+make --no-print-directory -C ../rtc_socket_bsp/
+      1 [main] pwd 1588 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 14860 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 3416 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      2 [main] echo 16580 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Compiling LCD.c to obj/default/LCD.o
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 13104 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/LCD.o LCD.c
+the public mailing list cygwin@cygwin.com
+Info: Compiling SSS_DE2_115.c to obj/default/SSS_DE2_115.o
+LCD.c: In function 'LCD_Test':
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/SSS_DE2_115.o SSS_DE2_115.c
+LCD.c:51: warning: unused variable 'Frase'
+Info: Compiling alt_error_handler.c to obj/default/alt_error_handler.o
+      1 [main] echo 15836 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/alt_error_handler.o alt_error_handler.c
+the public mailing list cygwin@cygwin.com
+Info: Compiling dm9000a.c to obj/default/dm9000a.o
+      1 [main] mkdir 12908 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 16276 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 13300 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/dm9000a.o dm9000a.c
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 15912 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 8364 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+dm9000a.c: In function 'prep_dm9000a':
+dm9000a.c:186: warning: pointer targets in assignment differ in signedness
+dm9000a.c:204: warning: pointer targets in passing argument 2 of 'get_mac_addr' differ in signedness
+dm9000a.c: In function 'dm9000a_isr':
+dm9000a.c:281: warning: pointer targets in initialization differ in signedness
+dm9000a.c: In function 'dm9ka_init':
+dm9000a.c:379: warning: pointer targets in passing argument 1 of 'dm9000a_reset' differ in signedness
+dm9000a.c:382: warning: implicit declaration of function 'alt_irq_register'
+dm9000a.c: In function 'dm9ka_pkt_send':
+dm9000a.c:453: warning: pointer targets in passing argument 1 of 'TransmitPacket' differ in signedness
+      1 [main] echo 9568 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Compiling iniche_init.c to obj/default/iniche_init.o
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 12800 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/iniche_init.o iniche_init.c
+iniche_init.c:24:23: warning: arpa/inet.h: No such file or directory
+Info: Compiling led.c to obj/default/led.o
+iniche_init.c:25:24: warning: netinet/in.h: No such file or directory
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/led.o led.c
+iniche_init.c:29:24: warning: sys/socket.h: No such file or directory
+iniche_init.c: In function 'SSSInitialTask':
+iniche_init.c:130: warning: implicit declaration of function 'inet_addr'
+iniche_init.c:152: warning: unused variable 'MAX_VALUE'
+iniche_init.c: In function 'main':
+iniche_init.c:222: warning: unused variable 'error_code2'
+      1 [main] echo 1360 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 15824 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+led.c: In function 'LED7SegLightshowTask':
+led.c:97: warning: unused variable 'led_7_seg_val'
+Info: Compiling network_utilities.c to obj/default/network_utilities.o
+      1 [main] echo 15364 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 11632 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/network_utilities.o network_utilities.c
+the public mailing list cygwin@cygwin.com
+Info: Compiling simple_socket_server.c to obj/default/simple_socket_server.o
+      1 [main] echo 9532 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/simple_socket_server.o simple_socket_server.c
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 15412 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+simple_socket_server.c: In function 'sss_send_menu':
+simple_socket_server.c:194: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:195: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:196: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:197: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:198: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:199: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:200: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:201: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:203: warning: pointer targets in passing argument 2 of 't_send' differ in signedness
+simple_socket_server.c: In function 'sss_exec_command':
+simple_socket_server.c:295: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:298: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:310: warning: pointer targets in passing argument 2 of 't_send' differ in signedness
+simple_socket_server.c: In function 'sss_handle_receive':
+simple_socket_server.c:349: warning: pointer targets in passing argument 1 of 'strchr' differ in signedness
+simple_socket_server.c:349: warning: pointer targets in assignment differ in signedness
+simple_socket_server.c:359: warning: pointer targets in passing argument 2 of 't_recv' differ in signedness
+      1 [main] echo 980 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Compiling tse_my_system.c to obj/default/tse_my_system.o
+      1 [main] mkdir 14364 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/tse_my_system.o tse_my_system.c
+      2 [main] true 15044 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 3020 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Linking rtc_socket.elf
+the public mailing list cygwin@cygwin.com
+nios2-elf-g++  -T'../rtc_socket_bsp//linker.x' -msys-crt0='../rtc_socket_bsp//obj/HAL/src/crt0.o' -msys-lib=ucosii_bsp -L../rtc_socket_bsp/   -Wl,-Map=rtc_socket.map   -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o rtc_socket.elf obj/default/LCD.o obj/default/SSS_DE2_115.o obj/default/alt_error_handler.o obj/default/dm9000a.o obj/default/iniche_init.o obj/default/led.o obj/default/network_utilities.o obj/default/simple_socket_server.o obj/default/tse_my_system.o -lm 
+nios2-elf-insert rtc_socket.elf --thread_model ucosii --cpu_name cpu_0 --qsys true --simulation_enabled false --id 0 --sidp 0x1a82108 --timestamp 1720014886 --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name system_0 --quartus_project_dir "D:/UTFPR/8/logica_reconfiguravel/lab/proj-final/DE2_NET" --jdi D:/UTFPR/8/logica_reconfiguravel/lab/proj-final/DE2_NET/DE2_NET.jdi --sopcinfo D:/UTFPR/8/logica_reconfiguravel/lab/proj-final/DE2_NET/system_0.sopcinfo
+      1 [main] sh 12952 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] uname 9072 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 10812 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: (rtc_socket.elf) 359 KBytes program size (code + initialized data).
+Info:                  7832 KBytes free for stack + heap.
+      1 [main] echo 8 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Creating rtc_socket.objdump
+the public mailing list cygwin@cygwin.com
+nios2-elf-objdump --disassemble --syms --all-header --source rtc_socket.elf >rtc_socket.objdump
+      1 [main] sh 8244 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 12848 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[rtc_socket build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project rtc_socket ****
+
+make all 
+      1 [main] sh 18304 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 17728 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 17008 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Building ../rtc_socket_bsp/
+the public mailing list cygwin@cygwin.com
+make --no-print-directory -C ../rtc_socket_bsp/
+      1 [main] pwd 16380 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 2020 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 10780 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      1 [main] echo 2304 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Compiling LCD.c to obj/default/LCD.o
+      2 [main] mkdir 3084 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/LCD.o LCD.c
+LCD.c: In function 'LCD_Test':
+Info: Compiling SSS_DE2_115.c to obj/default/SSS_DE2_115.o
+LCD.c:51: warning: unused variable 'Frase'
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/SSS_DE2_115.o SSS_DE2_115.c
+      1 [main] echo 4380 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Compiling alt_error_handler.c to obj/default/alt_error_handler.o
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/alt_error_handler.o alt_error_handler.c
+      1 [main] mkdir 6880 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Compiling dm9000a.c to obj/default/dm9000a.o
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 14624 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 6460 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/dm9000a.o dm9000a.c
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 14208 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 4552 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+dm9000a.c: In function 'prep_dm9000a':
+dm9000a.c:186: warning: pointer targets in assignment differ in signedness
+dm9000a.c:204: warning: pointer targets in passing argument 2 of 'get_mac_addr' differ in signedness
+dm9000a.c: In function 'dm9000a_isr':
+dm9000a.c:281: warning: pointer targets in initialization differ in signedness
+dm9000a.c: In function 'dm9ka_init':
+dm9000a.c:379: warning: pointer targets in passing argument 1 of 'dm9000a_reset' differ in signedness
+dm9000a.c:382: warning: implicit declaration of function 'alt_irq_register'
+dm9000a.c: In function 'dm9ka_pkt_send':
+dm9000a.c:453: warning: pointer targets in passing argument 1 of 'TransmitPacket' differ in signedness
+      1 [main] echo 17012 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Compiling iniche_init.c to obj/default/iniche_init.o
+      1 [main] mkdir 11244 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/iniche_init.o iniche_init.c
+iniche_init.c:24:23: warning: arpa/inet.h: No such file or directory
+Info: Compiling led.c to obj/default/led.o
+iniche_init.c:25:24: warning: netinet/in.h: No such file or directory
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/led.o led.c
+iniche_init.c:29:24: warning: sys/socket.h: No such file or directory
+iniche_init.c: In function 'SSSInitialTask':
+iniche_init.c:130: warning: implicit declaration of function 'inet_addr'
+iniche_init.c:152: warning: unused variable 'MAX_VALUE'
+iniche_init.c: In function 'main':
+iniche_init.c:221: warning: unused variable 'error_code2'
+      1 [main] echo 17980 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 9944 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+led.c: In function 'LED7SegLightshowTask':
+led.c:97: warning: unused variable 'led_7_seg_val'
+      1 [main] echo 2572 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Compiling network_utilities.c to obj/default/network_utilities.o
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 7028 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/network_utilities.o network_utilities.c
+      1 [main] echo 14212 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Compiling simple_socket_server.c to obj/default/simple_socket_server.o
+      1 [main] mkdir 15492 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/simple_socket_server.o simple_socket_server.c
+the public mailing list cygwin@cygwin.com
+simple_socket_server.c: In function 'sss_send_menu':
+simple_socket_server.c:194: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:195: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:196: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:197: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:198: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:199: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:200: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:201: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:203: warning: pointer targets in passing argument 2 of 't_send' differ in signedness
+simple_socket_server.c: In function 'sss_exec_command':
+simple_socket_server.c:295: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:298: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:310: warning: pointer targets in passing argument 2 of 't_send' differ in signedness
+simple_socket_server.c: In function 'sss_handle_receive':
+simple_socket_server.c:349: warning: pointer targets in passing argument 1 of 'strchr' differ in signedness
+simple_socket_server.c:349: warning: pointer targets in assignment differ in signedness
+simple_socket_server.c:359: warning: pointer targets in passing argument 2 of 't_recv' differ in signedness
+      1 [main] echo 17636 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Compiling tse_my_system.c to obj/default/tse_my_system.o
+      2 [main] mkdir 3884 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/tse_my_system.o tse_my_system.c
+      1 [main] true 13212 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Linking rtc_socket.elf
+the public mailing list cygwin@cygwin.com
+nios2-elf-g++  -T'../rtc_socket_bsp//linker.x' -msys-crt0='../rtc_socket_bsp//obj/HAL/src/crt0.o' -msys-lib=ucosii_bsp -L../rtc_socket_bsp/   -Wl,-Map=rtc_socket.map   -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o rtc_socket.elf obj/default/LCD.o obj/default/SSS_DE2_115.o obj/default/alt_error_handler.o obj/default/dm9000a.o obj/default/iniche_init.o obj/default/led.o obj/default/network_utilities.o obj/default/simple_socket_server.o obj/default/tse_my_system.o -lm 
+      2 [main] echo 5764 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-insert rtc_socket.elf --thread_model ucosii --cpu_name cpu_0 --qsys true --simulation_enabled false --id 0 --sidp 0x1a82108 --timestamp 1720014886 --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name system_0 --quartus_project_dir "D:/UTFPR/8/logica_reconfiguravel/lab/proj-final/DE2_NET" --jdi D:/UTFPR/8/logica_reconfiguravel/lab/proj-final/DE2_NET/DE2_NET.jdi --sopcinfo D:/UTFPR/8/logica_reconfiguravel/lab/proj-final/DE2_NET/system_0.sopcinfo
+      1 [main] sh 2184 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] uname 12340 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 16580 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: (rtc_socket.elf) 359 KBytes program size (code + initialized data).
+Info:                  7832 KBytes free for stack + heap.
+      1 [main] echo 8364 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Creating rtc_socket.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source rtc_socket.elf >rtc_socket.objdump
+      1 [main] sh 12364 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 15420 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[rtc_socket build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project rtc_socket ****
+
+make all 
+      1 [main] sh 10420 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 4116 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 5928 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Building ../rtc_socket_bsp/
+make --no-print-directory -C ../rtc_socket_bsp/
+      1 [main] pwd 12044 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 4808 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+     17 [main] sh 14472 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      1 [main] echo 16264 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Compiling LCD.c to obj/default/LCD.o
+      1 [main] mkdir 2448 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/LCD.o LCD.c
+the public mailing list cygwin@cygwin.com
+Info: Compiling SSS_DE2_115.c to obj/default/SSS_DE2_115.o
+LCD.c: In function 'LCD_Test':
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/SSS_DE2_115.o SSS_DE2_115.c
+LCD.c:51: warning: unused variable 'Frase'
+Info: Compiling alt_error_handler.c to obj/default/alt_error_handler.o
+      3 [main] echo 5452 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/alt_error_handler.o alt_error_handler.c
+the public mailing list cygwin@cygwin.com
+Info: Compiling dm9000a.c to obj/default/dm9000a.o
+      1 [main] mkdir 3912 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 13832 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 6068 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/dm9000a.o dm9000a.c
+      1 [main] echo 9544 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 10860 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+dm9000a.c: In function 'prep_dm9000a':
+dm9000a.c:186: warning: pointer targets in assignment differ in signedness
+dm9000a.c:204: warning: pointer targets in passing argument 2 of 'get_mac_addr' differ in signedness
+dm9000a.c: In function 'dm9000a_isr':
+dm9000a.c:281: warning: pointer targets in initialization differ in signedness
+dm9000a.c: In function 'dm9ka_init':
+dm9000a.c:379: warning: pointer targets in passing argument 1 of 'dm9000a_reset' differ in signedness
+dm9000a.c:382: warning: implicit declaration of function 'alt_irq_register'
+dm9000a.c: In function 'dm9ka_pkt_send':
+dm9000a.c:453: warning: pointer targets in passing argument 1 of 'TransmitPacket' differ in signedness
+      1 [main] echo 9844 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Compiling iniche_init.c to obj/default/iniche_init.o
+      1 [main] mkdir 15916 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/iniche_init.o iniche_init.c
+the public mailing list cygwin@cygwin.com
+iniche_init.c:24:23: warning: arpa/inet.h: No such file or directory
+iniche_init.c:25:24: warning: netinet/in.h: No such file or directory
+iniche_init.c:29:24: warning: sys/socket.h: No such file or directory
+iniche_init.c: In function 'SSSInitialTask':
+iniche_init.c:130: warning: implicit declaration of function 'inet_addr'
+iniche_init.c:152: warning: unused variable 'MAX_VALUE'
+iniche_init.c: In function 'main':
+iniche_init.c:221: warning: unused variable 'error_code2'
+      1 [main] echo 16972 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Compiling led.c to obj/default/led.o
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 11108 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/led.o led.c
+led.c: In function 'LED7SegLightshowTask':
+Info: Compiling network_utilities.c to obj/default/network_utilities.o
+led.c:97: warning: unused variable 'led_7_seg_val'
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/network_utilities.o network_utilities.c
+Info: Compiling simple_socket_server.c to obj/default/simple_socket_server.o
+      1 [main] echo 10660 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/simple_socket_server.o simple_socket_server.c
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 6768 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 5000 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 10428 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+simple_socket_server.c: In function 'sss_send_menu':
+simple_socket_server.c:194: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:195: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:196: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:197: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:198: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:199: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:200: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:201: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:203: warning: pointer targets in passing argument 2 of 't_send' differ in signedness
+simple_socket_server.c: In function 'sss_exec_command':
+simple_socket_server.c:295: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:298: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:310: warning: pointer targets in passing argument 2 of 't_send' differ in signedness
+simple_socket_server.c: In function 'sss_handle_receive':
+simple_socket_server.c:349: warning: pointer targets in passing argument 1 of 'strchr' differ in signedness
+simple_socket_server.c:349: warning: pointer targets in assignment differ in signedness
+Info: Compiling tse_my_system.c to obj/default/tse_my_system.o
+simple_socket_server.c:359: warning: pointer targets in passing argument 2 of 't_recv' differ in signedness
+      1 [main] echo 17948 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/tse_my_system.o tse_my_system.c
+      2 [main] mkdir 18276 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Linking rtc_socket.elf
+the public mailing list cygwin@cygwin.com
+nios2-elf-g++  -T'../rtc_socket_bsp//linker.x' -msys-crt0='../rtc_socket_bsp//obj/HAL/src/crt0.o' -msys-lib=ucosii_bsp -L../rtc_socket_bsp/   -Wl,-Map=rtc_socket.map   -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o rtc_socket.elf obj/default/LCD.o obj/default/SSS_DE2_115.o obj/default/alt_error_handler.o obj/default/dm9000a.o obj/default/iniche_init.o obj/default/led.o obj/default/network_utilities.o obj/default/simple_socket_server.o obj/default/tse_my_system.o -lm 
+      1 [main] true 17676 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-insert rtc_socket.elf --thread_model ucosii --cpu_name cpu_0 --qsys true --simulation_enabled false --id 0 --sidp 0x1a82108 --timestamp 1720014886 --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name system_0 --quartus_project_dir "D:/UTFPR/8/logica_reconfiguravel/lab/proj-final/DE2_NET" --jdi D:/UTFPR/8/logica_reconfiguravel/lab/proj-final/DE2_NET/DE2_NET.jdi --sopcinfo D:/UTFPR/8/logica_reconfiguravel/lab/proj-final/DE2_NET/system_0.sopcinfo
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 6512 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 17188 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] uname 16312 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 2544 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: (rtc_socket.elf) 359 KBytes program size (code + initialized data).
+Info:                  7832 KBytes free for stack + heap.
+      1 [main] echo 15476 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Creating rtc_socket.objdump
+the public mailing list cygwin@cygwin.com
+nios2-elf-objdump --disassemble --syms --all-header --source rtc_socket.elf >rtc_socket.objdump
+      1 [main] sh 10144 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 9064 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[rtc_socket build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project rtc_socket ****
+
+make all 
+      1 [main] sh 1044 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 2512 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 14020 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Building ../rtc_socket_bsp/
+make --no-print-directory -C ../rtc_socket_bsp/
+      1 [main] pwd 7712 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 4552 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 12616 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      1 [main] echo 1576 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Compiling LCD.c to obj/default/LCD.o
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 12672 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/LCD.o LCD.c
+the public mailing list cygwin@cygwin.com
+Info: Compiling SSS_DE2_115.c to obj/default/SSS_DE2_115.o
+LCD.c: In function 'LCD_Test':
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/SSS_DE2_115.o SSS_DE2_115.c
+LCD.c:51: warning: unused variable 'Frase'
+Info: Compiling alt_error_handler.c to obj/default/alt_error_handler.o
+      1 [main] echo 2468 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/alt_error_handler.o alt_error_handler.c
+      1 [main] mkdir 11080 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Compiling dm9000a.c to obj/default/dm9000a.o
+      1 [main] echo 2384 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/dm9000a.o dm9000a.c
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 3344 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 10152 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 2044 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+dm9000a.c: In function 'prep_dm9000a':
+dm9000a.c:186: warning: pointer targets in assignment differ in signedness
+dm9000a.c:204: warning: pointer targets in passing argument 2 of 'get_mac_addr' differ in signedness
+dm9000a.c: In function 'dm9000a_isr':
+dm9000a.c:281: warning: pointer targets in initialization differ in signedness
+dm9000a.c: In function 'dm9ka_init':
+dm9000a.c:379: warning: pointer targets in passing argument 1 of 'dm9000a_reset' differ in signedness
+dm9000a.c:382: warning: implicit declaration of function 'alt_irq_register'
+dm9000a.c: In function 'dm9ka_pkt_send':
+dm9000a.c:453: warning: pointer targets in passing argument 1 of 'TransmitPacket' differ in signedness
+      2 [main] echo 15480 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Compiling iniche_init.c to obj/default/iniche_init.o
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 7824 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/iniche_init.o iniche_init.c
+the public mailing list cygwin@cygwin.com
+iniche_init.c:24:23: warning: arpa/inet.h: No such file or directory
+iniche_init.c:25:24: warning: netinet/in.h: No such file or directory
+iniche_init.c:29:24: warning: sys/socket.h: No such file or directory
+Info: Compiling led.c to obj/default/led.o
+iniche_init.c: In function 'SSSInitialTask':
+iniche_init.c:130: warning: implicit declaration of function 'inet_addr'
+iniche_init.c:152: warning: unused variable 'MAX_VALUE'
+iniche_init.c: In function 'main':
+iniche_init.c:219: warning: unused variable 'error_code2'
+      2 [main] echo 10548 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/led.o led.c
+      1 [main] mkdir 5308 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Compiling network_utilities.c to obj/default/network_utilities.o
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/network_utilities.o network_utilities.c
+led.c: In function 'LED7SegLightshowTask':
+led.c:97: warning: unused variable 'led_7_seg_val'
+Info: Compiling simple_socket_server.c to obj/default/simple_socket_server.o
+      2 [main] echo 3000 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/simple_socket_server.o simple_socket_server.c
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 9668 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 2756 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 5332 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+simple_socket_server.c: In function 'sss_send_menu':
+simple_socket_server.c:194: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:195: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:196: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:197: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:198: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:199: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:200: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:201: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:203: warning: pointer targets in passing argument 2 of 't_send' differ in signedness
+simple_socket_server.c: In function 'sss_exec_command':
+simple_socket_server.c:295: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:298: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:310: warning: pointer targets in passing argument 2 of 't_send' differ in signedness
+simple_socket_server.c: In function 'sss_handle_receive':
+simple_socket_server.c:349: warning: pointer targets in passing argument 1 of 'strchr' differ in signedness
+simple_socket_server.c:349: warning: pointer targets in assignment differ in signedness
+simple_socket_server.c:359: warning: pointer targets in passing argument 2 of 't_recv' differ in signedness
+      1 [main] echo 4396 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Compiling tse_my_system.c to obj/default/tse_my_system.o
+      1 [main] mkdir 16208 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/tse_my_system.o tse_my_system.c
+      1 [main] true 6140 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Linking rtc_socket.elf
+      1 [main] echo 8752 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-g++  -T'../rtc_socket_bsp//linker.x' -msys-crt0='../rtc_socket_bsp//obj/HAL/src/crt0.o' -msys-lib=ucosii_bsp -L../rtc_socket_bsp/   -Wl,-Map=rtc_socket.map   -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o rtc_socket.elf obj/default/LCD.o obj/default/SSS_DE2_115.o obj/default/alt_error_handler.o obj/default/dm9000a.o obj/default/iniche_init.o obj/default/led.o obj/default/network_utilities.o obj/default/simple_socket_server.o obj/default/tse_my_system.o -lm 
+      1 [main] sh 16556 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-insert rtc_socket.elf --thread_model ucosii --cpu_name cpu_0 --qsys true --simulation_enabled false --id 0 --sidp 0x1a82108 --timestamp 1720014886 --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name system_0 --quartus_project_dir "D:/UTFPR/8/logica_reconfiguravel/lab/proj-final/DE2_NET" --jdi D:/UTFPR/8/logica_reconfiguravel/lab/proj-final/DE2_NET/DE2_NET.jdi --sopcinfo D:/UTFPR/8/logica_reconfiguravel/lab/proj-final/DE2_NET/system_0.sopcinfo
+the public mailing list cygwin@cygwin.com
+      1 [main] uname 3528 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 2800 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: (rtc_socket.elf) 359 KBytes program size (code + initialized data).
+Info:                  7832 KBytes free for stack + heap.
+      1 [main] echo 3408 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Creating rtc_socket.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source rtc_socket.elf >rtc_socket.objdump
+      1 [main] sh 9524 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 13644 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[rtc_socket build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project rtc_socket_bsp ****
+
+make all 
+      1 [main] pwd 10888 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 7044 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 7944 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project rtc_socket ****
+
+make all 
+      1 [main] sh 14704 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      3 [main] sh 12348 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 9692 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Building ../rtc_socket_bsp/
+make --no-print-directory -C ../rtc_socket_bsp/
+      1 [main] pwd 2132 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 6484 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 11500 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      1 [main] echo 6368 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Compiling LCD.c to obj/default/LCD.o
+      2 [main] mkdir 11524 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/LCD.o LCD.c
+LCD.c: In function 'LCD_Test':
+Info: Compiling SSS_DE2_115.c to obj/default/SSS_DE2_115.o
+LCD.c:51: warning: unused variable 'Frase'
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/SSS_DE2_115.o SSS_DE2_115.c
+      1 [main] echo 15468 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Compiling alt_error_handler.c to obj/default/alt_error_handler.o
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/alt_error_handler.o alt_error_handler.c
+      1 [main] mkdir 14744 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Compiling dm9000a.c to obj/default/dm9000a.o
+      2 [main] echo 9892 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/dm9000a.o dm9000a.c
+      1 [main] mkdir 14484 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 3768 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 13404 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+dm9000a.c: In function 'prep_dm9000a':
+dm9000a.c:186: warning: pointer targets in assignment differ in signedness
+dm9000a.c:204: warning: pointer targets in passing argument 2 of 'get_mac_addr' differ in signedness
+dm9000a.c: In function 'dm9000a_isr':
+dm9000a.c:281: warning: pointer targets in initialization differ in signedness
+dm9000a.c: In function 'dm9ka_init':
+dm9000a.c:379: warning: pointer targets in passing argument 1 of 'dm9000a_reset' differ in signedness
+dm9000a.c:382: warning: implicit declaration of function 'alt_irq_register'
+dm9000a.c: In function 'dm9ka_pkt_send':
+dm9000a.c:453: warning: pointer targets in passing argument 1 of 'TransmitPacket' differ in signedness
+      1 [main] echo 16108 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Compiling iniche_init.c to obj/default/iniche_init.o
+      1 [main] mkdir 1056 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/iniche_init.o iniche_init.c
+the public mailing list cygwin@cygwin.com
+iniche_init.c:24:23: warning: arpa/inet.h: No such file or directory
+iniche_init.c:25:24: warning: netinet/in.h: No such file or directory
+iniche_init.c:29:24: warning: sys/socket.h: No such file or directory
+iniche_init.c: In function 'SSSInitialTask':
+iniche_init.c:130: warning: implicit declaration of function 'inet_addr'
+Info: Compiling led.c to obj/default/led.o
+iniche_init.c:152: warning: unused variable 'MAX_VALUE'
+iniche_init.c: In function 'main':
+iniche_init.c:219: warning: unused variable 'error_code2'
+      2 [main] echo 11436 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/led.o led.c
+      1 [main] mkdir 6948 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Compiling network_utilities.c to obj/default/network_utilities.o
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/network_utilities.o network_utilities.c
+led.c: In function 'LED7SegLightshowTask':
+led.c:97: warning: unused variable 'led_7_seg_val'
+Info: Compiling simple_socket_server.c to obj/default/simple_socket_server.o
+      1 [main] echo 2468 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/simple_socket_server.o simple_socket_server.c
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 7476 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 15492 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 15016 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+simple_socket_server.c: In function 'sss_send_menu':
+simple_socket_server.c:194: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:195: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:196: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:197: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:198: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:199: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:200: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:201: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:203: warning: pointer targets in passing argument 2 of 't_send' differ in signedness
+simple_socket_server.c: In function 'sss_exec_command':
+simple_socket_server.c:295: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:298: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:310: warning: pointer targets in passing argument 2 of 't_send' differ in signedness
+simple_socket_server.c: In function 'sss_handle_receive':
+simple_socket_server.c:349: warning: pointer targets in passing argument 1 of 'strchr' differ in signedness
+simple_socket_server.c:349: warning: pointer targets in assignment differ in signedness
+simple_socket_server.c:359: warning: pointer targets in passing argument 2 of 't_recv' differ in signedness
+Info: Compiling tse_my_system.c to obj/default/tse_my_system.o
+      1 [main] echo 4580 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/tse_my_system.o tse_my_system.c
+      2 [main] mkdir 17748 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Linking rtc_socket.elf
+      2 [main] true 9904 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-g++  -T'../rtc_socket_bsp//linker.x' -msys-crt0='../rtc_socket_bsp//obj/HAL/src/crt0.o' -msys-lib=ucosii_bsp -L../rtc_socket_bsp/   -Wl,-Map=rtc_socket.map   -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o rtc_socket.elf obj/default/LCD.o obj/default/SSS_DE2_115.o obj/default/alt_error_handler.o obj/default/dm9000a.o obj/default/iniche_init.o obj/default/led.o obj/default/network_utilities.o obj/default/simple_socket_server.o obj/default/tse_my_system.o -lm 
+the public mailing list cygwin@cygwin.com
+nios2-elf-insert rtc_socket.elf --thread_model ucosii --cpu_name cpu_0 --qsys true --simulation_enabled false --id 0 --sidp 0x1a82108 --timestamp 1720014886 --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name system_0 --quartus_project_dir "D:/UTFPR/8/logica_reconfiguravel/lab/proj-final/DE2_NET" --jdi D:/UTFPR/8/logica_reconfiguravel/lab/proj-final/DE2_NET/DE2_NET.jdi --sopcinfo D:/UTFPR/8/logica_reconfiguravel/lab/proj-final/DE2_NET/system_0.sopcinfo
+      1 [main] echo 6008 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 15836 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] uname 11068 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 8596 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: (rtc_socket.elf) 359 KBytes program size (code + initialized data).
+Info:                  7832 KBytes free for stack + heap.
+      1 [main] echo 7908 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Creating rtc_socket.objdump
+the public mailing list cygwin@cygwin.com
+nios2-elf-objdump --disassemble --syms --all-header --source rtc_socket.elf >rtc_socket.objdump
+      2 [main] sh 11020 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 10308 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[rtc_socket build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project rtc_socket ****
+
+make all 
+      1 [main] sh 14400 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 13156 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 16504 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Building ../rtc_socket_bsp/
+make --no-print-directory -C ../rtc_socket_bsp/
+      1 [main] pwd 16196 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 16660 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 11156 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      1 [main] echo 3428 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Compiling LCD.c to obj/default/LCD.o
+      1 [main] mkdir 4188 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/LCD.o LCD.c
+LCD.c: In function 'LCD_Test':
+Info: Compiling SSS_DE2_115.c to obj/default/SSS_DE2_115.o
+LCD.c:51: warning: unused variable 'Frase'
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/SSS_DE2_115.o SSS_DE2_115.c
+      2 [main] echo 15176 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Compiling alt_error_handler.c to obj/default/alt_error_handler.o
+      1 [main] mkdir 13832 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/alt_error_handler.o alt_error_handler.c
+      1 [main] echo 11256 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Compiling dm9000a.c to obj/default/dm9000a.o
+      1 [main] mkdir 15976 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/dm9000a.o dm9000a.c
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 13744 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 8928 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+dm9000a.c: In function 'prep_dm9000a':
+dm9000a.c:186: warning: pointer targets in assignment differ in signedness
+dm9000a.c:204: warning: pointer targets in passing argument 2 of 'get_mac_addr' differ in signedness
+dm9000a.c: In function 'dm9000a_isr':
+dm9000a.c:281: warning: pointer targets in initialization differ in signedness
+dm9000a.c: In function 'dm9ka_init':
+dm9000a.c:379: warning: pointer targets in passing argument 1 of 'dm9000a_reset' differ in signedness
+dm9000a.c:382: warning: implicit declaration of function 'alt_irq_register'
+dm9000a.c: In function 'dm9ka_pkt_send':
+dm9000a.c:453: warning: pointer targets in passing argument 1 of 'TransmitPacket' differ in signedness
+      2 [main] echo 10420 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Compiling iniche_init.c to obj/default/iniche_init.o
+      1 [main] mkdir 15732 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/iniche_init.o iniche_init.c
+iniche_init.c:24:23: warning: arpa/inet.h: No such file or directory
+iniche_init.c:25:24: warning: netinet/in.h: No such file or directory
+iniche_init.c:29:24: warning: sys/socket.h: No such file or directory
+Info: Compiling led.c to obj/default/led.o
+iniche_init.c: In function 'SSSInitialTask':
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/led.o led.c
+iniche_init.c:130: warning: implicit declaration of function 'inet_addr'
+iniche_init.c:152: warning: unused variable 'MAX_VALUE'
+iniche_init.c: In function 'main':
+iniche_init.c:219: warning: unused variable 'error_code2'
+      1 [main] echo 2968 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 17564 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+led.c: In function 'LED7SegLightshowTask':
+led.c:97: warning: unused variable 'led_7_seg_val'
+      1 [main] echo 5096 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Compiling network_utilities.c to obj/default/network_utilities.o
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 2328 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/network_utilities.o network_utilities.c
+      1 [main] echo 12340 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Compiling simple_socket_server.c to obj/default/simple_socket_server.o
+      1 [main] mkdir 15356 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/simple_socket_server.o simple_socket_server.c
+the public mailing list cygwin@cygwin.com
+simple_socket_server.c: In function 'sss_send_menu':
+simple_socket_server.c:194: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:195: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:196: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:197: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:198: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:199: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:200: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:201: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:203: warning: pointer targets in passing argument 2 of 't_send' differ in signedness
+simple_socket_server.c: In function 'sss_exec_command':
+simple_socket_server.c:295: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:298: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:310: warning: pointer targets in passing argument 2 of 't_send' differ in signedness
+simple_socket_server.c: In function 'sss_handle_receive':
+simple_socket_server.c:349: warning: pointer targets in passing argument 1 of 'strchr' differ in signedness
+simple_socket_server.c:349: warning: pointer targets in assignment differ in signedness
+simple_socket_server.c:359: warning: pointer targets in passing argument 2 of 't_recv' differ in signedness
+      1 [main] echo 6008 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Compiling tse_my_system.c to obj/default/tse_my_system.o
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 12688 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/tse_my_system.o tse_my_system.c
+      1 [main] true 11524 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Linking rtc_socket.elf
+      1 [main] echo 13216 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-g++  -T'../rtc_socket_bsp//linker.x' -msys-crt0='../rtc_socket_bsp//obj/HAL/src/crt0.o' -msys-lib=ucosii_bsp -L../rtc_socket_bsp/   -Wl,-Map=rtc_socket.map   -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o rtc_socket.elf obj/default/LCD.o obj/default/SSS_DE2_115.o obj/default/alt_error_handler.o obj/default/dm9000a.o obj/default/iniche_init.o obj/default/led.o obj/default/network_utilities.o obj/default/simple_socket_server.o obj/default/tse_my_system.o -lm 
+nios2-elf-insert rtc_socket.elf --thread_model ucosii --cpu_name cpu_0 --qsys true --simulation_enabled false --id 0 --sidp 0x1a82108 --timestamp 1720014886 --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name system_0 --quartus_project_dir "D:/UTFPR/8/logica_reconfiguravel/lab/proj-final/DE2_NET" --jdi D:/UTFPR/8/logica_reconfiguravel/lab/proj-final/DE2_NET/DE2_NET.jdi --sopcinfo D:/UTFPR/8/logica_reconfiguravel/lab/proj-final/DE2_NET/system_0.sopcinfo
+      2 [main] sh 15636 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] uname 7048 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 7180 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: (rtc_socket.elf) 359 KBytes program size (code + initialized data).
+Info:                  7832 KBytes free for stack + heap.
+      1 [main] echo 16556 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Creating rtc_socket.objdump
+the public mailing list cygwin@cygwin.com
+nios2-elf-objdump --disassemble --syms --all-header --source rtc_socket.elf >rtc_socket.objdump
+      1 [main] sh 14100 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 9244 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[rtc_socket build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project rtc_socket ****
+
+make all 
+      2 [main] sh 14248 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+     18 [main] sh 2300 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 8592 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Building ../rtc_socket_bsp/
+the public mailing list cygwin@cygwin.com
+make --no-print-directory -C ../rtc_socket_bsp/
+      1 [main] pwd 8308 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 12008 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 7420 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      1 [main] echo 14008 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Compiling LCD.c to obj/default/LCD.o
+      1 [main] mkdir 1376 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/LCD.o LCD.c
+LCD.c: In function 'LCD_Test':
+LCD.c:51: warning: unused variable 'Frase'
+Info: Compiling SSS_DE2_115.c to obj/default/SSS_DE2_115.o
+      1 [main] echo 14312 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/SSS_DE2_115.o SSS_DE2_115.c
+the public mailing list cygwin@cygwin.com
+Info: Compiling alt_error_handler.c to obj/default/alt_error_handler.o
+      1 [main] mkdir 4728 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/alt_error_handler.o alt_error_handler.c
+the public mailing list cygwin@cygwin.com
+Info: Compiling dm9000a.c to obj/default/dm9000a.o
+      1 [main] echo 15192 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/dm9000a.o dm9000a.c
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 10712 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 14404 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 3936 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+dm9000a.c: In function 'prep_dm9000a':
+dm9000a.c:186: warning: pointer targets in assignment differ in signedness
+dm9000a.c:204: warning: pointer targets in passing argument 2 of 'get_mac_addr' differ in signedness
+dm9000a.c: In function 'dm9000a_isr':
+dm9000a.c:281: warning: pointer targets in initialization differ in signedness
+dm9000a.c: In function 'dm9ka_init':
+dm9000a.c:379: warning: pointer targets in passing argument 1 of 'dm9000a_reset' differ in signedness
+dm9000a.c:382: warning: implicit declaration of function 'alt_irq_register'
+dm9000a.c: In function 'dm9ka_pkt_send':
+dm9000a.c:453: warning: pointer targets in passing argument 1 of 'TransmitPacket' differ in signedness
+      1 [main] echo 3368 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Compiling iniche_init.c to obj/default/iniche_init.o
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 17512 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/iniche_init.o iniche_init.c
+the public mailing list cygwin@cygwin.com
+iniche_init.c:24:23: warning: arpa/inet.h: No such file or directory
+iniche_init.c:25:24: warning: netinet/in.h: No such file or directory
+Info: Compiling led.c to obj/default/led.o
+iniche_init.c:29:24: warning: sys/socket.h: No such file or directory
+iniche_init.c: In function 'SSSInitialTask':
+iniche_init.c:130: warning: implicit declaration of function 'inet_addr'
+iniche_init.c:152: warning: unused variable 'MAX_VALUE'
+iniche_init.c: In function 'main':
+iniche_init.c:219: warning: unused variable 'error_code2'
+      1 [main] echo 4856 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/led.o led.c
+the public mailing list cygwin@cygwin.com
+Info: Compiling network_utilities.c to obj/default/network_utilities.o
+      1 [main] mkdir 15512 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+led.c: In function 'LED7SegLightshowTask':
+led.c:97: warning: unused variable 'led_7_seg_val'
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/network_utilities.o network_utilities.c
+      1 [main] echo 9024 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Compiling simple_socket_server.c to obj/default/simple_socket_server.o
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/simple_socket_server.o simple_socket_server.c
+      2 [main] mkdir 7588 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 5276 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 14200 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+simple_socket_server.c: In function 'sss_send_menu':
+simple_socket_server.c:194: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:195: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:196: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:197: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:198: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:199: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:200: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:201: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:203: warning: pointer targets in passing argument 2 of 't_send' differ in signedness
+simple_socket_server.c: In function 'sss_exec_command':
+simple_socket_server.c:295: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:298: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness
+simple_socket_server.c:310: warning: pointer targets in passing argument 2 of 't_send' differ in signedness
+simple_socket_server.c: In function 'sss_handle_receive':
+simple_socket_server.c:349: warning: pointer targets in passing argument 1 of 'strchr' differ in signedness
+Info: Compiling tse_my_system.c to obj/default/tse_my_system.o
+simple_socket_server.c:349: warning: pointer targets in assignment differ in signedness
+simple_socket_server.c:359: warning: pointer targets in passing argument 2 of 't_recv' differ in signedness
+nios2-elf-gcc -xc -MP -MMD -c -I../rtc_socket_bsp//iniche/inc -I../rtc_socket_bsp//iniche/src/h -I../rtc_socket_bsp//iniche/src/h/nios2 -I../rtc_socket_bsp//iniche/src/nios2 -I../rtc_socket_bsp//UCOSII/inc -I../rtc_socket_bsp//HAL/inc -I../rtc_socket_bsp/ -I../rtc_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/tse_my_system.o tse_my_system.c
+      1 [main] echo 5412 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Linking rtc_socket.elf
+the public mailing list cygwin@cygwin.com
+nios2-elf-g++  -T'../rtc_socket_bsp//linker.x' -msys-crt0='../rtc_socket_bsp//obj/HAL/src/crt0.o' -msys-lib=ucosii_bsp -L../rtc_socket_bsp/   -Wl,-Map=rtc_socket.map   -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o rtc_socket.elf obj/default/LCD.o obj/default/SSS_DE2_115.o obj/default/alt_error_handler.o obj/default/dm9000a.o obj/default/iniche_init.o obj/default/led.o obj/default/network_utilities.o obj/default/simple_socket_server.o obj/default/tse_my_system.o -lm 
+      1 [main] mkdir 18152 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-insert rtc_socket.elf --thread_model ucosii --cpu_name cpu_0 --qsys true --simulation_enabled false --id 0 --sidp 0x1a82108 --timestamp 1720014886 --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name system_0 --quartus_project_dir "D:/UTFPR/8/logica_reconfiguravel/lab/proj-final/DE2_NET" --jdi D:/UTFPR/8/logica_reconfiguravel/lab/proj-final/DE2_NET/DE2_NET.jdi --sopcinfo D:/UTFPR/8/logica_reconfiguravel/lab/proj-final/DE2_NET/system_0.sopcinfo
+the public mailing list cygwin@cygwin.com
+      1 [main] true 1464 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 7452 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 5772 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] uname 17028 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 4204 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: (rtc_socket.elf) 359 KBytes program size (code + initialized data).
+Info:                  7832 KBytes free for stack + heap.
+      2 [main] echo 1232 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Creating rtc_socket.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source rtc_socket.elf >rtc_socket.objdump
+      1 [main] sh 18296 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 14912 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[rtc_socket build complete]
+
+**** Build Finished ****

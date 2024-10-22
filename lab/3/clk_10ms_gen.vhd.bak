@@ -1,0 +1,40 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.numeric_std.ALL;
+ 
+entity clk_10ms_gen is
+port ( 
+	clk	: in std_logic;
+	rst	: in std_logic;
+	en	: in std_logic;
+	clk_10ms: out std_logic
+);
+
+end clk_10ms_gen;
+ 
+architecture clk_10ms_gen_arch of clk_10ms_gen is
+ 
+signal count: integer:=1;
+signal tmp : std_logic := '0';
+ 
+begin
+	 
+	process(rst, clk)
+	begin
+		if (rst='1') then
+			count <= 0;
+		end if;
+		if(clk'event and clk='1') then
+			if (en='1') then
+				count <= count+1;
+				if (count = 50000000/20000) then
+					tmp <= NOT tmp;
+					count <= 0;
+				end if;
+			end if;
+		end if;
+	end process;
+
+ 	clk_10ms <= tmp;
+	
+end architecture;

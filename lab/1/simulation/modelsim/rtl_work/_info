@@ -1,0 +1,79 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\UTFPR\8\logica_reconfiguravel\lab\1\simulation\modelsim
+Econt4_tb
+Z1 w1710944377
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dD:\UTFPR\8\logica_reconfiguravel\lab\1\simulation\modelsim
+Z6 8D:/UTFPR/8/logica_reconfiguravel/lab/1/count4/count4_tb.vhd
+Z7 FD:/UTFPR/8/logica_reconfiguravel/lab/1/count4/count4_tb.vhd
+l0
+L5
+VTRbXzM2iFS[5>1=QYg32o1
+!s100 =ChoSlDH=AHZlB=z[URN80
+Z8 OV;C;10.1d;51
+32
+!i10b 1
+Z9 !s108 1710945077.860000
+Z10 !s90 -reportprogress|300|-work|work|D:/UTFPR/8/logica_reconfiguravel/lab/1/count4/count4_tb.vhd|
+Z11 !s107 D:/UTFPR/8/logica_reconfiguravel/lab/1/count4/count4_tb.vhd|
+Z12 o-work work -O0
+Z13 tExplicit 1
+Acont4_tb_arch
+R2
+R3
+R4
+DEx4 work 8 cont4_tb 0 22 TRbXzM2iFS[5>1=QYg32o1
+l26
+L8
+V6gX1;Ai^SHbc18WN?NV2@3
+!s100 ^i64E09D2_cK^OF_U24A72
+R8
+32
+!i10b 1
+R9
+R10
+R11
+R12
+R13
+Ecount4
+Z14 w1710944301
+R2
+R3
+R4
+R5
+Z15 8D:/UTFPR/8/logica_reconfiguravel/lab/1/count4/count4.vhd
+Z16 FD:/UTFPR/8/logica_reconfiguravel/lab/1/count4/count4.vhd
+l0
+L5
+VHFPiV:Sib2B[eBkL]LnC_3
+R8
+31
+Z17 !s108 1710945063.905000
+Z18 !s90 -reportprogress|300|-93|-work|work|D:/UTFPR/8/logica_reconfiguravel/lab/1/count4/count4.vhd|
+Z19 !s107 D:/UTFPR/8/logica_reconfiguravel/lab/1/count4/count4.vhd|
+Z20 o-93 -work work -O0
+R13
+!s100 5_4C2flSbzORBXhLSA?^l2
+!i10b 1
+Acount4_arch
+R2
+R3
+R4
+DEx4 work 6 count4 0 22 HFPiV:Sib2B[eBkL]LnC_3
+l17
+L15
+VMA42<]ghfKh=X:WNRhgdz0
+R8
+31
+R17
+R18
+R19
+R20
+R13
+!s100 FO9;OGM?eXfoQ:::C5nJN1
+!i10b 1

@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <unistd.h> // For usleep function
+#include "io.h"
+#include "system.h"
+
+#define HR 21
+#define MIN 5
+#define SEC 10
+
+int main() {
+    // Encode the time into complete_reg_content
+    int complete_reg_content = ((HR / 10) << 20) | ((HR % 10) << 16) | ((MIN / 10) << 12) | ((MIN % 10) << 8) | ((SEC / 10) << 4) | (SEC % 10);
+
+    // Decode and print the encoded time
+    printf("Decoded time -> %02d:%02d:%02d\n",
+           ((complete_reg_content >> 20) & 0xF) * 10 + ((complete_reg_content >> 16) & 0xF),
+           ((complete_reg_content >> 12) & 0xF) * 10 + ((complete_reg_content >> 8) & 0xF),
+           ((complete_reg_content >> 4) & 0xF) * 10 + (complete_reg_content & 0xF));
+
+    IOWR(TOP_RTC_0_BASE, 0, complete_reg_content);
+    IOWR(TOP_RTC_0_BASE, 1, 1);
+
+    long double i = 0;
+    for (i = 0; i < 10; i++) {
+        int read_data = IORD(TOP_RTC_0_BASE, 0);
+        printf("Read data: %d\n", read_data);
+
+        printf("Decoded time -> %02d:%02d:%02d\n",
+               ((read_data >> 20) & 0xF) * 10 + ((read_data >> 16) & 0xF),
+               ((read_data >> 12) & 0xF) * 10 + ((read_data >> 8) & 0xF),
+               ((read_data >> 4) & 0xF) * 10 + (read_data & 0xF));
+
+        usleep(1000000);
+    }
+    printf("Finished\n");
+    return 0;
+}

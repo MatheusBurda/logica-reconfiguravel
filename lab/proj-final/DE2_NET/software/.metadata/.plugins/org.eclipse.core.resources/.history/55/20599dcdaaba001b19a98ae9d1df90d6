@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include "io.h"
+#include "system.h"
+
+
+
+int main()
+{
+	int count = 0;
+	int i = 0;
+	int count_paused = 0;
+	int m1, m2, s1, s2 = 0;
+	while(1){
+		if (i == 0){
+			IOWR(A3_0_BASE, 1, 0x1); // liga contagem
+		}
+//		else if (s2 == 5 && !count_paused){
+//			IOWR(T_0_BASE, 1, 0x0); // desliga contagem
+//			count_paused = 1;
+//		}
+//		else if (count_paused && i >= 10){
+//			count_paused = 0;
+//			i = 0;
+//			continue;
+//		}
+
+		count = IORD(A3_0_BASE, 0);
+		m1 = count & 0xFF000000 >> 24;
+		m2 = count & 0x00FF0000 >> 16;
+		s1 = count & 0x0000FF00 >> 8;
+		s2 = count & 0x000000FF;
+
+		i++;
+	}
+	return 0;
+}

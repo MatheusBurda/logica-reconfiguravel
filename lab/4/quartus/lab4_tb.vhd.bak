@@ -1,0 +1,18 @@
+Library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+entity lab4 is
+	port (
+		input 		: in std_logic_vector(3 downto 0);
+		clk 		: in std_logic;
+		count_for : out std_logic_vector(2 downto 0);
+		count_for : out std_logic_vector(2 downto 0)
+	);
+end lab4;
+
+architecture arch_lab4 of lab4 is
+begin
+	
+	 
+end arch_lab4;

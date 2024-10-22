@@ -1,0 +1,112 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\UTFPR\8\logica_reconfiguravel\lab\5\simulation\modelsim
+Ebram
+Z1 w1714603040
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dD:\UTFPR\8\logica_reconfiguravel\lab\5\simulation\modelsim
+Z5 8D:/UTFPR/8/logica_reconfiguravel/lab/5/bram.vhd
+Z6 FD:/UTFPR/8/logica_reconfiguravel/lab/5/bram.vhd
+l0
+L42
+VPUWOdM80VZHDHhiZgF4P33
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1714692373.370000
+Z9 !s90 -reportprogress|300|-93|-work|work|D:/UTFPR/8/logica_reconfiguravel/lab/5/bram.vhd|
+Z10 !s107 D:/UTFPR/8/logica_reconfiguravel/lab/5/bram.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 `zEEY<bFmf4K`K<=nBOLD1
+!i10b 1
+Asyn
+R2
+R3
+DEx4 work 4 bram 0 22 PUWOdM80VZHDHhiZgF4P33
+l86
+L54
+V3Y?l;iJ9:@alcOeAM^KZa2
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 FQQR^8;F<Y=V=BaOl^FD32
+!i10b 1
+Efifo
+Z13 w1714618606
+R2
+R3
+R4
+Z14 8D:/UTFPR/8/logica_reconfiguravel/lab/5/fifo.vhd
+Z15 FD:/UTFPR/8/logica_reconfiguravel/lab/5/fifo.vhd
+l0
+L42
+VUi::G1G?KIb5za`CJ78P>2
+!s100 i<Pmen[YldBa<786K^Y@>3
+R7
+31
+!i10b 1
+Z16 !s108 1714692373.650000
+Z17 !s90 -reportprogress|300|-93|-work|work|D:/UTFPR/8/logica_reconfiguravel/lab/5/fifo.vhd|
+Z18 !s107 D:/UTFPR/8/logica_reconfiguravel/lab/5/fifo.vhd|
+R11
+R12
+Asyn
+R2
+R3
+DEx4 work 4 fifo 0 22 Ui::G1G?KIb5za`CJ78P>2
+l94
+L58
+Vk?CCjPnFjeO=WCdnT2n9f2
+!s100 KAaPYTA?S1gKBEOTSU8ze1
+R7
+31
+!i10b 1
+R16
+R17
+R18
+R11
+R12
+Elab5
+Z19 w1714692126
+Z20 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R2
+R3
+R4
+Z21 8D:/UTFPR/8/logica_reconfiguravel/lab/5/lab5.vhd
+Z22 FD:/UTFPR/8/logica_reconfiguravel/lab/5/lab5.vhd
+l0
+L5
+Vd^m[bdLG@J1GU;g5E5XGc2
+R7
+31
+Z23 !s108 1714692373.045000
+Z24 !s90 -reportprogress|300|-93|-work|work|D:/UTFPR/8/logica_reconfiguravel/lab/5/lab5.vhd|
+Z25 !s107 D:/UTFPR/8/logica_reconfiguravel/lab/5/lab5.vhd|
+R11
+R12
+!s100 _lTEH;D6;a`AgeH8Sa1lM3
+!i10b 1
+Aarch_lab5
+R20
+R2
+R3
+DEx4 work 4 lab5 0 22 d^m[bdLG@J1GU;g5E5XGc2
+l75
+L22
+VREmUY>imNQ@lDMV<4nZbj2
+R7
+31
+R23
+R24
+R25
+R11
+R12
+!s100 R>9Y4EZhiU3g`?jddnz6o2
+!i10b 1

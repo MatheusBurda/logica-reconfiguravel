@@ -1,0 +1,136 @@
+# Reading C:/altera/13.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do top_avalon_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {E:/SNios_new/hw/reg32/reg32.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity reg32
+# -- Compiling architecture Behavior of reg32
+# vcom -93 -work work {E:/SNios_new/hw/cont8/cont8.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cont8
+# -- Compiling architecture X of cont8
+# vcom -93 -work work {E:/SNios_new/hw/top_avalon/top_avalon.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity top_avalon
+# -- Compiling architecture Y of top_avalon
+# 
+vcom -reportprogress 300 -work work E:/SNios_new/hw/cont8/cont8.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cont8
+# -- Compiling architecture X of cont8
+vcom -reportprogress 300 -work work E:/SNios_new/hw/reg32/reg32.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity reg32
+# -- Compiling architecture Behavior of reg32
+vcom -reportprogress 300 -work work E:/SNios_new/hw/top_avalon/top_avalon.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity top_avalon
+# -- Compiling architecture Y of top_avalon
+vcom -reportprogress 300 -work work E:/SNios_new/hw/top_avalon/top_avalon_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity top_avalon_tb
+# -- Compiling architecture X of top_avalon_tb
+# ** Warning: [14] E:/SNios_new/hw/top_avalon/top_avalon_tb.vhd(152): (vcom-1272) Length of expected is 32; length of actual is 8.
+# 
+# ** Warning: [14] E:/SNios_new/hw/top_avalon/top_avalon_tb.vhd(158): (vcom-1272) Length of expected is 32; length of actual is 8.
+# 
+vcom -reportprogress 300 -work work E:/SNios_new/hw/top_avalon/top_avalon_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity top_avalon_tb
+# -- Compiling architecture X of top_avalon_tb
+vsim +altera -do top_avalon_run_msim_rtl_vhdl.do -l msim_transcript -gui rtl_work.top_avalon_tb
+# vsim +altera -do top_avalon_run_msim_rtl_vhdl.do -l msim_transcript -gui rtl_work.top_avalon_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading rtl_work.top_avalon_tb(x)
+# Loading rtl_work.top_avalon(y)
+# Loading rtl_work.cont8(x)
+# Loading rtl_work.reg32(behavior)
+# do top_avalon_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {E:/SNios_new/hw/reg32/reg32.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity reg32
+# -- Compiling architecture Behavior of reg32
+# vcom -93 -work work {E:/SNios_new/hw/cont8/cont8.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cont8
+# -- Compiling architecture X of cont8
+# vcom -93 -work work {E:/SNios_new/hw/top_avalon/top_avalon.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity top_avalon
+# -- Compiling architecture Y of top_avalon
+# 
+add wave -position insertpoint  \
+sim:/top_avalon_tb/GND \
+sim:/top_avalon_tb/VCC \
+sim:/top_avalon_tb/rst \
+sim:/top_avalon_tb/clk \
+sim:/top_avalon_tb/resetn \
+sim:/top_avalon_tb/READDATA \
+sim:/top_avalon_tb/WRITEDATA \
+sim:/top_avalon_tb/ADD \
+sim:/top_avalon_tb/state \
+sim:/top_avalon_tb/INTERVAL_0 \
+sim:/top_avalon_tb/INTERVAL_1 \
+sim:/top_avalon_tb/counter \
+sim:/top_avalon_tb/address \
+sim:/top_avalon_tb/CS \
+sim:/top_avalon_tb/WR_EN \
+sim:/top_avalon_tb/RD_EN
+run 300 ns

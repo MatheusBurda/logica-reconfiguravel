@@ -1,0 +1,425 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do count_57_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {D:/UTFPR/8/logica_reconfiguravel/lab/2/count_57.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity count_57
+# -- Compiling architecture count_57_arch of count_57
+# vcom -93 -work work {D:/UTFPR/8/logica_reconfiguravel/lab/2/count4/count4.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity count4
+# -- Compiling architecture count4_arch of count4
+# 
+vcom -reportprogress 300 -work work D:/UTFPR/8/logica_reconfiguravel/lab/2/cont_57_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cont_57_tb
+# -- Compiling architecture cont_57_tb_arch of cont_57_tb
+vsim -voptargs=+acc work.cont_57_tb
+# vsim -voptargs=+acc work.cont_57_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.cont_57_tb(cont_57_tb_arch)
+# Loading work.count_57(count_57_arch)
+# Loading work.count4(count4_arch)
+add wave -position insertpoint sim:/cont_57_tb/*
+step
+do make.do
+# Cannot open macro file: make.do
+cd D:/UTFPR/8/logica_reconfiguravel/lab/2
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+quit -sim
+cd D:/UTFPR/8/logica_reconfiguravel/lab/2
+# reading C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+do make.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# ** Error: (vcom-19) Failed to access library 'work' at "work".
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./make.do line 4
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -reportprogress 300 -work work ./count4/count4.vhd"
+do make.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# ** Error: Library work not found.
+# ** Error: VHDL Compiler exiting
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./make.do line 4
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom ./count4/count4.vhd"
+do make.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# ** Error: Library work not found.
+# ** Error: VHDL Compiler exiting
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./make.do line 4
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom ./count4/count4.vhd"
+do make.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# ** Error: (vcom-19) Failed to access library 'work' at "work".
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./make.do line 4
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -reportprogress 300 -work work count4/count4.vhd"
+do make.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# ** Error: Library work not found.
+# ** Error: VHDL Compiler exiting
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./make.do line 4
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom count4/count4.vhd"
+do make.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# ** Error: (vcom-19) Failed to access library 'work' at "work".
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./make.do line 4
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -reportprogress 300 -work work D:/UTFPR/8/logica_reconfiguravel/lab/2/count4/count4.vhd"
+do make.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# ** Error: (vcom-19) Failed to access library 'work' at "work".
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./make.do line 4
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -reportprogress 300 -work work count4.vhd"
+ls
+# cont_57_tb.vhd      count_57.qpf  count_57.vhd.bak                    incremental_db  output_files  
+# cont_57_tb.vhd.bak  count_57.qsf  count_57_nativelink_simulation.rpt  make.do         simulation    
+# count4              count_57.vhd  db                                  make.do.bak                   
+vcom -help
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# Usage: vcom [options] files
+# Options:
+#   -help              Print this message
+#   -time              Print the compilation wall clock time
+#   -version           Print the version of the compiler
+#   -work <path>       Specify library WORK
+#   -error <msgNumber>[,<msgNumber>...]
+#                      Report the listed messages as errors
+#   -warning <msgNumber>[,<msgNumber>...]
+#                      Report the listed messages as warnings
+#   -note <msgNumber>[,<msgNumber>...]
+#                      Report the listed message as notes
+#   -suppress <msgNumber>[,<msgNumber>...]
+#                      Suppress the listed messages
+#   -msglimit <msgNumber>[,<msgNumber>...]
+#                      Limit the reporting of listed messages
+#   -87                Enable support for VHDL 1076-1987
+#   -93                Enable support for VHDL 1076-1993
+#   -2002              Enable support for VHDL 1076-2002
+#   -2008              Enable support for VHDL 1076-2008
+#                      Refer to the technote docs/technotes/vhdl2008.note
+#                      for a list of the currently supported 2008 features.
+#   -check_synthesis   Check for compliance to some synthesis rules
+#   -bindAtCompile     Perform default binding at compile time
+#   -bindAtLoad        Perform default binding when the design is loaded
+#   -amsstd            Add VHDL-AMS declarations to package STANDARD
+#   -noamsstd          Do not add VHDL-AMS declarations to package STANDARD
+#   -ignoreStandardRealVector Ignore the VHDL-2008 declaration of REAL_VECTOR in package STANDARD
+#   -nocoversub        Ignore VHDL subprograms for code coverage
+#   -coversub          Include VHDL subprograms for code coverage
+#   -coverrespecthandl  Inform code coverage optimizations to look for H and L signal values
+#   -nocoverrespecthandl  Inform code coverage optimizations to ignore H and L signal values
+#   -separateConfigLibrary  Allows VHDL configuration decls in different library from corresponding entity
+#   +cover[=<spec>]
+#                      <spec> is used to enable code coverage metrics for certain
+#                      kinds of constructs.
+#                      <spec> consists of one or more of the following letter codes:
+#                         s (statement)
+#                         b (branch)
+#                         c (condition)
+#                         e (expression)
+#                         f (finite state machine)
+#                         t (toggle)
+#                         x (extended toggle)
+#                      If no <spec> characters are given, sbceft is the default.
+#   -coverenhanced     Enables functionality which may change the appearance or content of coverage
+#                      metrics. A detailed list of these changes can be found by searching in the
+#                      release notes for 'coverenhanced'. This option only takes meaningful effect in
+#                      letter releases (e.g. 10.2b). It has no effect in initial major releases (e.g. 10.2).
+#   -coveropt <i>      Specify a digit for code coverage optimization level: 1 through 4.
+#   -coverexcludedefault Automatically exclude case default clauses.
+#   -coverfec          Enable Focused Expression Coverage analysis for conditions and expressions.
+#   -nocoverfec        Disable Focused Expression Coverage analysis for conditions and expressions.
+#   -coverudp          Enable UDP Coverage analysis for conditions and expressions.
+#   -nocoverudp        Disable UDP Coverage analysis for conditions and expressions.
+#   -nocovershort      Disable short circuiting of expressions/condition when coverage is enabled.
+#   -nocoverexcludedefault Don't automatically exclude case default clauses.
+#   -constimmedassert  Show constant immediate assertions in GUI/UCDB/reports etc.
+#   -togglecountlimit n Quit collecting toggle info after count n is reached.
+#   -togglewidthlimit n Don't collect toggle data on reg's or arrays wider than n.
+#   -extendedtogglemode [1|2|3]
+#                      Change the level of support for extended toggles.
+#                      The levels of support are:
+#                      1 - 0L->1H & 1H->0L & any one 'Z' transition (to/from 'Z')
+#                      2 - 0L->1H & 1H->0L & one transition to 'Z' & one transition from 'Z'
+#                      3 - 0L->1H & 1H->0L & all 'Z' transitions
+#   -toggleportsonly   Enable toggle statistics collection only for ports.
+#   -maxudprows n      Max number of rows allowed in UDP tables for code coverage.
+#   -maxfecrows n      Max number of input patterns allowed in FEC table for code coverage.
+#   -coverreportcancelled Report coverage items that have been optimized away.
+#   -debugVA           Print VITAL cell optimization information
+#   -defercheck        Defer all compile-time range checking on constant index and
+#                      slice expressions until run time
+#   -deferSubpgmCheck  Defer compile-time range checking on constant index and
+#                      slice expressions in subprograms until run time
+#   -explicit          Resolve resolution conflicts in favor of explicit functions
+#   -f <path>          Specify a file containing more command line arguments
+#   -force_refresh     Force a refresh of the library image from .dat file(s)
+#                      even if there are dependency errors
+#   -nofsmresettrans   Disable recognition of implicit asynchronous reset transitions for FSMs
+#   -fsmresettrans     Enable recognition of implicit asynchronous reset transitions for FSMs
+#   -nofsmsingle       Disable recognition FSMs having single bit current state variable
+#   -fsmsingle         Enable recognition FSMs having single bit current state variable
+#   -fsmimplicittrans  Enable recognition of implicit transitions in FSMs
+#   -nofsmimplicittrans Disable recognition of implicit transitions in FSMs
+#   -fsmmultitrans     Enable recognition of Multi-state transitions in FSMs
+#   -fsmverbose [b|t|w]
+#                      Provides information about FSMs recognized, including state reachability analysis.
+#                      There are three detail levels that can be set with this option.
+#                         b (displays only basic information)
+#                         t (displays a transition table in addition to the basic information)
+#                         w (displays any warning messages in addition to the basic information)
+#                      If no character is specified, btw is the default.
+#   -gen_xml <entity> <output>
+#                      Output (into a file) the interface definition of the
+#                      specified design unit in XML format
+#   -ignoredefaultbinding
+#                      Do not generate a default binding during compilation
+#   -ignorevitalerrors Ignore VITAL compliance errors
+#   -initoutcompositeparam
+#                      Initialize array and record mode OUT parameters of subprograms
+#   -noinitoutcompositeparam
+#                      Do not initialize array and record mode OUT parameters of subprograms
+#   -just eapbc        Compile only selected design unit kinds
+#                      (e=entity, a=arch, p=package, b=body, c=config)
+#   -l <filename>      Write compilation log to <filename>
+#   -line <lineNum>    Specify a starting line number
+#   -lint              Perform lint-style checks
+#   -modelsimini <modelsim.ini>
+#                      Specify path to the modelsim.ini file.
+#   -no1164            Disable optimization for the std_logic_1164 package (same as "-noaccel std_logic_1164")
+#   -noaccel <pname>   Disable optimization for the specified package
+#   -nocasestaticerror Suppress case statement non-static choice warning
+#   -lower             Save all identifiers as lower case names
+#   -preserve          Keep case of identifiers, does not make VHDL case sensitive
+#   -oldconfigvis      Use pre-6.7 non-lrm compilent visibility for use clauses in configurations
+#   -lrmconfigvis      Use lrm compilent visibility for use clause in configurations
+#   -nocheck           Disable run-time range and index checks
+#   -nodebug[=ports][=pli][=ports+pli]
+#                      Do not put symbolic debugging information into the library
+#   -nodbgsym
+#                      Do not generate symbols debugging database
+#   -noDeferSubpgmCheck
+#                      Perform compile-time range checking on constant index and
+#                      slice expressions in subprograms at compile-time
+#   -noindexcheck      Disable run-time index checks
+#   -nologo            Disable startup banner
+#   -noothersstaticerror Suppress array aggregate non-static OTHERS choice warning
+#   -nopsl             Disable embedded PSL language parsing
+#   -norangecheck      Disable run-time range checks
+#   -novital           Disable all VITAL optimizations
+#   -novitalcheck      Disable VITAL Level 1 compliance checking and optimizations
+#   -novopt            Do not run the "vopt" compiler before simulation
+#   -nowarn <number>   Disable specified category of warning messages; verror 1907 to see them
+#   -noconstimmedassert  Do not show constant immediate assertions in GUI/UCDB/reports etc.
+#   -O0                Disable optimizations
+#   -pedanticerrors    Enforce strict language checks
+#   -performdefaultbinding
+#                      Enable default binding when it has been disabled with the
+#                      RequireConfigForAllDefaultBinding modelsim.ini variable
+#   -permissive        Relax some language error checks to warnings.
+#   +protect[=<file>]  Enable use of `protect...`endprotect compiler directives
+#   -pslext            Enable PSL LTL/Universal operators
+#   -pslfile <file>    Compile and bind PSL vunits specified by <file>
+#   -quiet             Disable 'Loading' messages
+#   -rangecheck        Enable run-time range checks
+#   -refresh           Refresh the library image from .dat file(s)
+#   -s                 Do not load package std.standard
+#   -skipsynthoffregion Ignore all constructs within synthesis_off or translate_off pragma regions.
+#   -skip eapbc        Compile all but selected design unit kinds
+#                      (e=entity, a=arch, p=package, b=body, c=config)
+#   -source            Print the source line with error messages
+#   -svext[=[+|-]<extension>[,[+|-]<extension>]*]
+#                      Enable SystemVerilog language extensions.
+#                      Valid extensions are:
+#                      feci - Treat constant expressions in foreach loop variable indices as constant.
+#                      pae - Automatically export all symbols imported and referenced in a package.
+#                      uslt - Promote unused design units to top-level design units.
+#                      spsl - Search for packages in source libraries specified with -y and +libext.
+#   -vitalmemorycheck  Enable VITAL Level 1 Memory model compliance checking
+#   -mixedsvvh [b | l | r] [i]
+#                      Facilitates using a VHDL package at the SV-VHDL mixed-language boundary.
+#                         b - treat scalars/vectors in the package as bit
+#                         l - treat scalars/vectors in the package as logic
+#                         r - treat scalars/vectors in the package as reg
+#                         i - ignore range specified with VHDL integer types
+#   -vmake             Collects complete list of command line args for use by vmake.
+#   -showsubprograms   Allows VHDL subprograms to be entered into the vsim context tree.
+#   -noshowsubprograms Disallows VHDL subprograms to be entered into the vsim context tree.
+do make.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# ** Error: (vcom-19) Failed to access library 'work' at "work".
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./make.do line 4
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -reportprogress 300 -work work count4.vhd"
+do make.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity count4
+# -- Compiling architecture count4_arch of count4
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# ** Error: (vcom-7) Failed to open design unit file "D:/UTFPR/8/logica_reconfiguravel/lab/2/cont_57.vhd" in read mode.
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./make.do line 7
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -reportprogress 300 -work work D:/UTFPR/8/logica_reconfiguravel/lab/2/cont_57.vhd"
+do make.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity count4
+# -- Compiling architecture count4_arch of count4
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# ** Error: (vcom-7) Failed to open design unit file "./cont_57.vhd" in read mode.
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./make.do line 7
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -reportprogress 300 -work work ./cont_57.vhd"
+do make.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity count4
+# -- Compiling architecture count4_arch of count4
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# ** Error: (vcom-7) Failed to open design unit file "./cont_57.vhd" in read mode.
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./make.do line 7
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -reportprogress 300 -work work {./cont_57.vhd}"
+ls
+# cont_57_tb.vhd      count_57.qpf  count_57.vhd.bak                    incremental_db  output_files  
+# cont_57_tb.vhd.bak  count_57.qsf  count_57_nativelink_simulation.rpt  make.do         simulation    
+# count4              count_57.vhd  db                                  make.do.bak     work          
+do make.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity count4
+# -- Compiling architecture count4_arch of count4
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity count_57
+# -- Compiling architecture count_57_arch of count_57
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# ** Error: (vcom-7) Failed to open design unit file "./count_57_tb.vhd" in read mode.
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./make.do line 8
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -reportprogress 300 -work work {./count_57_tb.vhd}"
+do make.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity count4
+# -- Compiling architecture count4_arch of count4
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity count_57
+# -- Compiling architecture count_57_arch of count_57
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cont_57_tb
+# -- Compiling architecture cont_57_tb_arch of cont_57_tb
+# vsim -voptargs=+acc work.cont_57_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.cont_57_tb(cont_57_tb_arch)
+# Loading work.count_57(count_57_arch)
+# Loading work.count4(count4_arch)

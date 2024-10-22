@@ -1,0 +1,116 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\UTFPR\8\logica_reconfiguravel\lab\2\simulation\modelsim
+Econt_57_tb
+Z1 w1711558311
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dD:\UTFPR\8\logica_reconfiguravel\lab\2\simulation\modelsim
+Z6 8D:/UTFPR/8/logica_reconfiguravel/lab/2/cont_57_tb.vhd
+Z7 FD:/UTFPR/8/logica_reconfiguravel/lab/2/cont_57_tb.vhd
+l0
+L5
+VcaQFV^_bm8AGMY?Le@`U81
+!s100 3QfmTHQd_MYjd16a2_M1X1
+Z8 OV;C;10.1d;51
+32
+!i10b 1
+Z9 !s108 1711559234.570000
+Z10 !s90 -reportprogress|300|-work|work|D:/UTFPR/8/logica_reconfiguravel/lab/2/cont_57_tb.vhd|
+Z11 !s107 D:/UTFPR/8/logica_reconfiguravel/lab/2/cont_57_tb.vhd|
+Z12 o-work work -O0
+Z13 tExplicit 1
+Acont_57_tb_arch
+R2
+R3
+R4
+DEx4 work 10 cont_57_tb 0 22 caQFV^_bm8AGMY?Le@`U81
+l28
+L8
+Vi]4Lg_7Bo9Q[Xh:;A]W@C0
+!s100 2a=;TN_hP4?HWjegLGlmd1
+R8
+32
+!i10b 1
+R9
+R10
+R11
+R12
+R13
+Ecount4
+Z14 w1711414063
+R2
+R3
+R4
+R5
+Z15 8D:/UTFPR/8/logica_reconfiguravel/lab/2/count4/count4.vhd
+Z16 FD:/UTFPR/8/logica_reconfiguravel/lab/2/count4/count4.vhd
+l0
+L5
+V0a_cXoBhLkNno@b>=^z<G1
+R8
+31
+Z17 !s108 1711559118.372000
+Z18 !s90 -reportprogress|300|-93|-work|work|D:/UTFPR/8/logica_reconfiguravel/lab/2/count4/count4.vhd|
+Z19 !s107 D:/UTFPR/8/logica_reconfiguravel/lab/2/count4/count4.vhd|
+Z20 o-93 -work work -O0
+R13
+!s100 Ae0gUzXc=iMkfmBjV1j[V0
+!i10b 1
+Acount4_arch
+R2
+R3
+R4
+DEx4 work 6 count4 0 22 0a_cXoBhLkNno@b>=^z<G1
+l19
+L17
+VCF9N0h_kL3XLMQTh_kM8j3
+R8
+31
+R17
+R18
+R19
+R20
+R13
+!s100 0Q8[QN0GWg<fb^PXcM^If3
+!i10b 1
+Ecount_57
+Z21 w1711557647
+R2
+R3
+R4
+R5
+Z22 8D:/UTFPR/8/logica_reconfiguravel/lab/2/count_57.vhd
+Z23 FD:/UTFPR/8/logica_reconfiguravel/lab/2/count_57.vhd
+l0
+L5
+V61>WT0A2[ZZ8c@;eLojo>1
+R8
+31
+Z24 !s108 1711559118.036000
+Z25 !s90 -reportprogress|300|-93|-work|work|D:/UTFPR/8/logica_reconfiguravel/lab/2/count_57.vhd|
+Z26 !s107 D:/UTFPR/8/logica_reconfiguravel/lab/2/count_57.vhd|
+R20
+R13
+!s100 `01fLT6gCbKU>2oilS:]52
+!i10b 1
+Acount_57_arch
+R2
+R3
+R4
+DEx4 work 8 count_57 0 22 61>WT0A2[ZZ8c@;eLojo>1
+l44
+L17
+VL@`RA`kBbb5z:6?z<f?_m0
+R8
+31
+R24
+R25
+R26
+R20
+R13
+!s100 <XQgTAzgfEfF^3H]P:LKo1
+!i10b 1

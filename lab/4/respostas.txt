@@ -1,0 +1,16 @@
+Matheus Augusto Burda - Lab 4 - 22/04/24
+
+Comparar, para o exercício, a frequência máxima obtida na simulação gate_level (com alguns cálculos adicionais) com a fornecida pelo Quartus. 
+
+    ??
+
+Mencionar a diferença de tempo de propagação das diversas opções.
+
+    Nas execuções a diferença de tempo de propagação ficou mais evidente os atrasos gerados pelas variáveis e loops.
+    Lista de mais rápido (1) para mais lento (5) 
+
+    1 - Soma direta
+    2 - Case When
+    3 - If/Else
+    4 - For com variáveis
+    5 - While com variáveis

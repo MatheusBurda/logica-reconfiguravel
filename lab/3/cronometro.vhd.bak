@@ -1,0 +1,75 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity cont57_tb is
+end;
+
+architecture a_cont57_tb of cont57_tb is
+    component cont57 is
+        PORT( 
+            RST:  IN  std_logic;
+            CLK:  IN  std_logic;
+            SAIDA_UNI,SAIDA_DEC:OUT std_logic_vector(3 downto 0);
+            EN:   in std_logic;
+				CLR:  in std_logic
+    );
+    end component;
+
+    constant period_time:              								time := 20 ns;
+     constant rst_time:                								time := 15 ns;
+     signal enable:                    								std_logic := '1';
+     signal clock, reset:              								std_logic;
+     signal clear:                     								std_logic := '0';
+	  signal contador_unidades,contador_dezenas:						std_logic_vector(3 downto 0);
+
+Begin
+    uut : cont57 port map(
+        CLK => clock,
+        RST => reset,
+        EN => enable,
+        CLR => clear,
+		  SAIDA_UNI => contador_unidades,
+		  SAIDA_DEC => contador_dezenas
+    );
+
+     process
+     begin
+        wait for 75 ns;
+        clear <= '1';
+        wait for 20 ns;
+        clear <= '0';
+        wait for 400 ns;
+        clear <= '1';
+        wait for 20 ns;
+        clear <= '0';
+        wait;
+    end process;
+
+    process
+    begin
+      reset <= '1';
+      wait for rst_time;
+      reset <= '0';
+      wait;
+    end process;
+
+    process
+    begin
+      wait for 3000 ns; -- <== TEMPO TOTAL DA SIMULAÃ‡ÃƒO!!!
+      enable <= '0';
+      wait;
+    end process;
+
+    process
+    begin
+      while true loop
+        clock <= '0';
+        wait for period_time/2;
+        clock <= '1';
+        wait for period_time/2;
+      end loop;
+      wait;
+    end process;
+
+end architecture;

@@ -1,0 +1,90 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do lab4_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {lab4_fast.vho}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity lab4
+# -- Compiling architecture structure of lab4
+# 
+vcom -reportprogress 300 -work work D:/UTFPR/8/logica_reconfiguravel/lab/4/lab4_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity lab4_tb
+# -- Compiling architecture arch_lab4_tb of lab4_tb
+vsim +altera -do lab4_run_msim_gate_vhdl.do -l msim_transcript -gui -sdftyp /lab4_tb/lab=D:/UTFPR/8/logica_reconfiguravel/lab/4/simulation/modelsim/lab4_vhd_fast.sdo gate_work.lab4_tb
+# vsim +altera -do lab4_run_msim_gate_vhdl.do -l msim_transcript -gui -sdftyp /lab4_tb/lab=D:/UTFPR/8/logica_reconfiguravel/lab/4/simulation/modelsim/lab4_vhd_fast.sdo gate_work.lab4_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading gate_work.lab4_tb(arch_lab4_tb)
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading gate_work.lab4(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading cycloneii.cycloneii_clkctrl(vital_clkctrl)
+# Loading cycloneii.cycloneii_ena_reg(behave)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
+# Loading cycloneii.cycloneii_lcell_ff(vital_lcell_ff)
+# Loading cycloneii.cycloneii_and1(altvital)
+# Loading instances from D:/UTFPR/8/logica_reconfiguravel/lab/4/simulation/modelsim/lab4_vhd_fast.sdo
+# Loading timing data from D:/UTFPR/8/logica_reconfiguravel/lab/4/simulation/modelsim/lab4_vhd_fast.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /lab4_tb File: D:/UTFPR/8/logica_reconfiguravel/lab/4/lab4_tb.vhd
+# do lab4_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {lab4_fast.vho}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity lab4
+# -- Compiling architecture structure of lab4
+# 
+add wave -position insertpoint  \
+sim:/lab4_tb/rst \
+sim:/lab4_tb/clk \
+sim:/lab4_tb/number_input \
+sim:/lab4_tb/count_for \
+sim:/lab4_tb/count_while \
+sim:/lab4_tb/count_case \
+sim:/lab4_tb/count_if \
+sim:/lab4_tb/count_sum
+run 500ns

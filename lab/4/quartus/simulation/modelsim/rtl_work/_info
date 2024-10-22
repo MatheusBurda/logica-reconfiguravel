@@ -1,0 +1,227 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\UTFPR\8\logica_reconfiguravel\lab\4\simulation\modelsim
+Ecountonescasewhen
+Z1 w1713828705
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dD:\UTFPR\8\logica_reconfiguravel\lab\4\simulation\modelsim
+Z6 8D:/UTFPR/8/logica_reconfiguravel/lab/4/CountOnesCaseWhen.vhd
+Z7 FD:/UTFPR/8/logica_reconfiguravel/lab/4/CountOnesCaseWhen.vhd
+l0
+L5
+VYB^b@mF@^TP57E<Wjd]Om2
+Z8 OV;C;10.1d;51
+31
+Z9 !s108 1713828949.344000
+Z10 !s90 -reportprogress|300|-93|-work|work|D:/UTFPR/8/logica_reconfiguravel/lab/4/CountOnesCaseWhen.vhd|
+Z11 !s107 D:/UTFPR/8/logica_reconfiguravel/lab/4/CountOnesCaseWhen.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+!s100 k8ZzojIjP`=LE7ZLmdIQU0
+!i10b 1
+Aarch_countonescasewhen
+R2
+R3
+R4
+DEx4 work 17 countonescasewhen 0 22 YB^b@mF@^TP57E<Wjd]Om2
+l15
+L13
+VkJ_XL5760YoM?W3793KbR0
+R8
+31
+R9
+R10
+R11
+R12
+R13
+!s100 UJ>2CB7Zb=2BEXHHR]b[U3
+!i10b 1
+Ecountonesfor
+Z14 w1713828757
+R2
+R3
+R4
+R5
+Z15 8D:/UTFPR/8/logica_reconfiguravel/lab/4/CountOnesFor.vhd
+Z16 FD:/UTFPR/8/logica_reconfiguravel/lab/4/CountOnesFor.vhd
+l0
+L5
+VoUlUSO29g[IYz5ZRU<K3R2
+R8
+31
+Z17 !s108 1713828948.866000
+Z18 !s90 -reportprogress|300|-93|-work|work|D:/UTFPR/8/logica_reconfiguravel/lab/4/CountOnesFor.vhd|
+Z19 !s107 D:/UTFPR/8/logica_reconfiguravel/lab/4/CountOnesFor.vhd|
+R12
+R13
+!s100 ;L<]KSXfWdikce7b_>R4d0
+!i10b 1
+Aarch_countonesfor
+R2
+R3
+R4
+DEx4 work 12 countonesfor 0 22 oUlUSO29g[IYz5ZRU<K3R2
+l15
+L13
+V9zgDIY=VZ1F@6kVL<@z_51
+R8
+31
+R17
+R18
+R19
+R12
+R13
+!s100 ;TKD_Bd2:lA_DF8<HT5VJ3
+!i10b 1
+Ecountonesif
+Z20 w1713828794
+R2
+R3
+R4
+R5
+Z21 8D:/UTFPR/8/logica_reconfiguravel/lab/4/CountOnesIf.vhd
+Z22 FD:/UTFPR/8/logica_reconfiguravel/lab/4/CountOnesIf.vhd
+l0
+L5
+VYO4XT2@C1U9_=Q6^J`M5N0
+!s100 ;mieRT1Wz_mN7E^FGDj2G2
+R8
+31
+!i10b 1
+Z23 !s108 1713828949.581000
+Z24 !s90 -reportprogress|300|-93|-work|work|D:/UTFPR/8/logica_reconfiguravel/lab/4/CountOnesIf.vhd|
+Z25 !s107 D:/UTFPR/8/logica_reconfiguravel/lab/4/CountOnesIf.vhd|
+R12
+R13
+Aarch_countonesif
+R2
+R3
+R4
+DEx4 work 11 countonesif 0 22 YO4XT2@C1U9_=Q6^J`M5N0
+l15
+L13
+VH6lm5d<G=214TY5G8aZd]1
+!s100 <3JheJMY5cPI[BjCRK?ez3
+R8
+31
+!i10b 1
+R23
+R24
+R25
+R12
+R13
+Ecountonessum
+Z26 w1713828846
+R2
+R3
+R4
+R5
+Z27 8D:/UTFPR/8/logica_reconfiguravel/lab/4/CountOnesSum.vhd
+Z28 FD:/UTFPR/8/logica_reconfiguravel/lab/4/CountOnesSum.vhd
+l0
+L5
+V6F9j=B5GdkkUETz`Z;MS:1
+R8
+31
+Z29 !s108 1713828948.383000
+Z30 !s90 -reportprogress|300|-93|-work|work|D:/UTFPR/8/logica_reconfiguravel/lab/4/CountOnesSum.vhd|
+Z31 !s107 D:/UTFPR/8/logica_reconfiguravel/lab/4/CountOnesSum.vhd|
+R12
+R13
+!s100 ;S]8Zd`;^<e7cYS@FAleW0
+!i10b 1
+Aarch_countonessum
+R2
+R3
+R4
+DEx4 work 12 countonessum 0 22 6F9j=B5GdkkUETz`Z;MS:1
+l15
+L13
+VZ^`:MWD2^odiFfC`aAbm62
+R8
+31
+R29
+R30
+R31
+R12
+R13
+!s100 IzlUUJTb1W@k<JlUBh_z50
+!i10b 1
+Ecountoneswhile
+Z32 w1713828880
+R2
+R3
+R4
+R5
+Z33 8D:/UTFPR/8/logica_reconfiguravel/lab/4/CountOnesWhile.vhd
+Z34 FD:/UTFPR/8/logica_reconfiguravel/lab/4/CountOnesWhile.vhd
+l0
+L5
+VABmV]z5`Rg47L7z=^b?f72
+R8
+31
+Z35 !s108 1713828949.108000
+Z36 !s90 -reportprogress|300|-93|-work|work|D:/UTFPR/8/logica_reconfiguravel/lab/4/CountOnesWhile.vhd|
+Z37 !s107 D:/UTFPR/8/logica_reconfiguravel/lab/4/CountOnesWhile.vhd|
+R12
+R13
+!s100 BUD<1IaR@zP]dz?nN?e272
+!i10b 1
+Aarch_countoneswhile
+R2
+R3
+R4
+DEx4 work 14 countoneswhile 0 22 ABmV]z5`Rg47L7z=^b?f72
+l15
+L13
+VYX758<O8d667nV9D5bXX32
+R8
+31
+R35
+R36
+R37
+R12
+R13
+!s100 0l>ULCIbY;@[TKN=H]gIU3
+!i10b 1
+Elab4
+Z38 w1713828392
+R2
+R3
+R4
+R5
+Z39 8D:/UTFPR/8/logica_reconfiguravel/lab/4/lab4.vhd
+Z40 FD:/UTFPR/8/logica_reconfiguravel/lab/4/lab4.vhd
+l0
+L5
+VRmJRH<^IcW:h^h;H;bjO00
+R8
+31
+Z41 !s108 1713828948.668000
+Z42 !s90 -reportprogress|300|-93|-work|work|D:/UTFPR/8/logica_reconfiguravel/lab/4/lab4.vhd|
+Z43 !s107 D:/UTFPR/8/logica_reconfiguravel/lab/4/lab4.vhd|
+R12
+R13
+!s100 AMbRUf7ZQmb?kY8i?NUTX3
+!i10b 1
+Aarch_lab4
+R2
+R3
+R4
+DEx4 work 4 lab4 0 22 RmJRH<^IcW:h^h;H;bjO00
+l64
+L18
+VT=C7=H=CVc_ENV<Q`gRfZ1
+R8
+31
+R41
+R42
+R43
+R12
+R13
+!s100 QQLJEe;_Eb_h@WHKTj5U63
+!i10b 1

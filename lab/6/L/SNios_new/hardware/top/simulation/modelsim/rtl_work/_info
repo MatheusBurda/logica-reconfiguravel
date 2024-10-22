@@ -1,0 +1,112 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\SNios_new\hw\top_avalon\simulation\modelsim
+Econt8
+Z1 w1617804907
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dE:\SNios_new\hw\top_avalon\simulation\modelsim
+Z6 8E:/SNios_new/hw/cont8/cont8.vhd
+Z7 FE:/SNios_new/hw/cont8/cont8.vhd
+l0
+L5
+VkHMW1<_XdHG>FzZk8n^<:3
+Z8 OV;C;10.1d;51
+31
+Z9 !s108 1664977170.563000
+Z10 !s90 -reportprogress|300|-93|-work|work|E:/SNios_new/hw/cont8/cont8.vhd|
+Z11 !s107 E:/SNios_new/hw/cont8/cont8.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+!s100 J8a?]YjmdF]zeFN^82<<D1
+!i10b 1
+Ax
+R2
+R3
+R4
+DEx4 work 5 cont8 0 22 kHMW1<_XdHG>FzZk8n^<:3
+l18
+L15
+VE]`V2bh7aZR_z>Qf6Bz3F1
+R8
+31
+R9
+R10
+R11
+R12
+R13
+!s100 >4K@oc`PlG`Z_:U2RAWY<1
+!i10b 1
+Ereg32
+Z14 w1617822810
+R3
+R4
+R5
+Z15 8E:/SNios_new/hw/reg32/reg32.vhd
+Z16 FE:/SNios_new/hw/reg32/reg32.vhd
+l0
+L3
+VknnH2GEdhICzYjk<8PGJ60
+R8
+31
+Z17 !s108 1664977170.408000
+Z18 !s90 -reportprogress|300|-93|-work|work|E:/SNios_new/hw/reg32/reg32.vhd|
+Z19 !s107 E:/SNios_new/hw/reg32/reg32.vhd|
+R12
+R13
+!s100 kk@4:=b9]e1^l]aUjiNY70
+!i10b 1
+Abehavior
+R3
+R4
+DEx4 work 5 reg32 0 22 knnH2GEdhICzYjk<8PGJ60
+l20
+L10
+V6=WRYQ77[ncaTNC@Wfgi11
+R8
+31
+R17
+R18
+R19
+R12
+R13
+!s100 l^`LTPeedZ1;nc[^V0C:E3
+!i10b 1
+Etop_avalon
+Z20 w1664976898
+R3
+R4
+R5
+Z21 8E:/SNios_new/hw/top_avalon/top_avalon.vhd
+Z22 FE:/SNios_new/hw/top_avalon/top_avalon.vhd
+l0
+L3
+VcWmJ61F2R]8B61Bl<f3CL3
+!s100 Idef^G`bf4lFchVbj4F<A0
+R8
+31
+!i10b 1
+Z23 !s108 1664977170.765000
+Z24 !s90 -reportprogress|300|-93|-work|work|E:/SNios_new/hw/top_avalon/top_avalon.vhd|
+Z25 !s107 E:/SNios_new/hw/top_avalon/top_avalon.vhd|
+R12
+R13
+Ay
+R3
+R4
+DEx4 work 10 top_avalon 0 22 cWmJ61F2R]8B61Bl<f3CL3
+l46
+L13
+V^=hI=I7UAHLz`PoQJ3g?l3
+!s100 b>PA@dllWCV5gG2MVzA<m1
+R8
+31
+!i10b 1
+R23
+R24
+R25
+R12
+R13

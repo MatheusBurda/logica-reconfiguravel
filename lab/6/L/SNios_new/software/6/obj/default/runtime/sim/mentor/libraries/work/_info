@@ -1,0 +1,42 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\L\SNios_new\software\6\obj\default\runtime\sim\mentor
+Ehsys_tb
+Z1 w1716939711
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\L\SNios_new\software\6\obj\default\runtime\sim\mentor
+Z6 8C:/L/SNios_new/HSys/testbench/HSys_tb/simulation/HSys_tb.vhd
+Z7 FC:/L/SNios_new/HSys/testbench/HSys_tb/simulation/HSys_tb.vhd
+l0
+L9
+VaR<RW[@0X=SI36bd[BgEV1
+!s100 >2B@zQk];=6zIN@@a7Al`1
+Z8 OV;C;10.1d;51
+32
+!i10b 1
+Z9 !s108 1716940562.075000
+Z10 !s90 -reportprogress|300|C:/L/SNios_new/HSys/testbench/HSys_tb/simulation/HSys_tb.vhd|
+Z11 !s107 C:/L/SNios_new/HSys/testbench/HSys_tb/simulation/HSys_tb.vhd|
+o-O0
+Z12 tExplicit 1
+Artl
+R2
+R3
+R4
+Z13 DEx4 work 7 hsys_tb 0 22 aR<RW[@0X=SI36bd[BgEV1
+l44
+L12
+Z14 V8R?YkYB^6aOa=Zlb6ZW^52
+Z15 !s100 WU]:2X5;Jgf230Jc=`H_F2
+R8
+32
+!i10b 1
+R9
+R10
+R11
+o-O0
+R12

@@ -1,0 +1,82 @@
+|count_57
+RST => ld1.IN1
+RST => ld2.IN1
+RST => count4:count1.RST
+RST => count4:count2.RST
+CLK => count4:count1.CLK
+CLK => count4:count2.CLK
+CLR => ld1.IN1
+CLR => ld2.IN1
+EN => count4:count1.EN
+Q1_U[0] <= count4:count1.Q[0]
+Q1_U[1] <= count4:count1.Q[1]
+Q1_U[2] <= count4:count1.Q[2]
+Q1_U[3] <= count4:count1.Q[3]
+Q2_D[0] <= count4:count2.Q[0]
+Q2_D[1] <= count4:count2.Q[1]
+Q2_D[2] <= count4:count2.Q[2]
+Q2_D[3] <= count4:count2.Q[3]
+
+
+|count_57|count4:count1
+RST => count[0].ACLR
+RST => count[1].ACLR
+RST => count[2].ACLR
+RST => count[3].ACLR
+CLK => count[0].CLK
+CLK => count[1].CLK
+CLK => count[2].CLK
+CLK => count[3].CLK
+EN => count.OUTPUTSELECT
+EN => count.OUTPUTSELECT
+EN => count.OUTPUTSELECT
+EN => count.OUTPUTSELECT
+CLR => count.OUTPUTSELECT
+CLR => count.OUTPUTSELECT
+CLR => count.OUTPUTSELECT
+CLR => count.OUTPUTSELECT
+Q[0] <= count[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= count[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= count[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= count[3].DB_MAX_OUTPUT_PORT_TYPE
+LD => count.OUTPUTSELECT
+LD => count.OUTPUTSELECT
+LD => count.OUTPUTSELECT
+LD => count.OUTPUTSELECT
+LOAD[0] => count.DATAB
+LOAD[1] => count.DATAB
+LOAD[2] => count.DATAB
+LOAD[3] => count.DATAB
+
+
+|count_57|count4:count2
+RST => count[0].ACLR
+RST => count[1].ACLR
+RST => count[2].ACLR
+RST => count[3].ACLR
+CLK => count[0].CLK
+CLK => count[1].CLK
+CLK => count[2].CLK
+CLK => count[3].CLK
+EN => count.OUTPUTSELECT
+EN => count.OUTPUTSELECT
+EN => count.OUTPUTSELECT
+EN => count.OUTPUTSELECT
+CLR => count.OUTPUTSELECT
+CLR => count.OUTPUTSELECT
+CLR => count.OUTPUTSELECT
+CLR => count.OUTPUTSELECT
+Q[0] <= count[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= count[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= count[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= count[3].DB_MAX_OUTPUT_PORT_TYPE
+LD => count.OUTPUTSELECT
+LD => count.OUTPUTSELECT
+LD => count.OUTPUTSELECT
+LD => count.OUTPUTSELECT
+LOAD[0] => count.DATAB
+LOAD[1] => count.DATAB
+LOAD[2] => count.DATAB
+LOAD[3] => count.DATAB
+
+

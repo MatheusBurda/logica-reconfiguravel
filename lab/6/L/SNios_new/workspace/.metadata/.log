@@ -1,0 +1,25 @@
+!SESSION 2022-10-05 11:04:52.372 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-05 11:09:03.649
+!MESSAGE Indexed 'teste0_bsp' (72 sources, 49 headers) in 0,97 sec: 756 declarations; 1.600 references; 92 unresolved inclusions; 4 syntax errors; 159 unresolved names (6,32%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-05 11:09:10.340
+!MESSAGE Indexed 'teste0' (1 sources, 13 headers) in 0,01 sec: 1 declarations; 1 references; 14 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-05 11:26:51.068
+!MESSAGE Indexed 'teste1_bsp' (72 sources, 49 headers) in 0,29 sec: 756 declarations; 1.600 references; 92 unresolved inclusions; 4 syntax errors; 159 unresolved names (6,32%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-05 11:26:55.076
+!MESSAGE Indexed 'teste1' (1 sources, 13 headers) in 0,01 sec: 1 declarations; 1 references; 14 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00%)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-10-05 11:29:10.709
+!MESSAGE Failed Executing: make sim SPD=E:/SNios_new/HSys_tb.spd ELF=E:/SNios_new/software/teste1/teste1.elf ENABLE_VSIM_GUI=1 VSIM_DIR='C:/altera/13.0/modelsim_ae/win32aloem'  return code: 2
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-10-05 11:39:41.393
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.debug.internal.ui.DebugUIPlugin$8

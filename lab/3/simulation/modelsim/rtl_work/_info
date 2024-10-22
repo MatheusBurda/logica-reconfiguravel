@@ -1,0 +1,268 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\joaor\Documents\UTPR-2024.1\Lógica Reconfigurável\cronometro\logica reconfiguravel\logica reconfiguravel\simulation\modelsim
+Eclk_10ms_gen
+Z1 w1712749210
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\Users\joaor\Documents\UTPR-2024.1\Lógica Reconfigurável\cronometro\logica reconfiguravel\logica reconfiguravel\simulation\modelsim
+Z6 8C:/Users/joaor/Documents/UTPR-2024.1/Lógica Reconfigurável/cronometro/logica reconfiguravel/logica reconfiguravel/divisor.vhd
+Z7 FC:/Users/joaor/Documents/UTPR-2024.1/Lógica Reconfigurável/cronometro/logica reconfiguravel/logica reconfiguravel/divisor.vhd
+l0
+L5
+V5VBhQ`YkPi:ZY143NTTmk1
+Z8 OV;C;10.1d;51
+31
+Z9 !s108 1713026194.437000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/joaor/Documents/UTPR-2024.1/Lógica Reconfigurável/cronometro/logica reconfiguravel/logica reconfiguravel/divisor.vhd|
+Z11 !s107 C:/Users/joaor/Documents/UTPR-2024.1/Lógica Reconfigurável/cronometro/logica reconfiguravel/logica reconfiguravel/divisor.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+!s100 j]d@CD_ZS60e7b?Z0G7lG1
+!i10b 1
+Aclk_10ms_gen_arch
+R2
+R3
+R4
+DEx4 work 12 clk_10ms_gen 0 22 5VBhQ`YkPi:ZY143NTTmk1
+l18
+L13
+VomUQIGHVanC[bBJoNb^gD0
+R8
+31
+R9
+R10
+R11
+R12
+R13
+!s100 gn4cIQjkS?YXX8^XRzh221
+!i10b 1
+Econt100
+Z14 w1712614173
+R2
+R3
+R4
+R5
+Z15 8C:/Users/joaor/Documents/UTPR-2024.1/Lógica Reconfigurável/cronometro/logica reconfiguravel/logica reconfiguravel/cont100.vhd
+Z16 FC:/Users/joaor/Documents/UTPR-2024.1/Lógica Reconfigurável/cronometro/logica reconfiguravel/logica reconfiguravel/cont100.vhd
+l0
+L5
+VUnGk[kf=IZcET=@SkQH_W3
+R8
+31
+Z17 !s108 1713026194.283000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/joaor/Documents/UTPR-2024.1/Lógica Reconfigurável/cronometro/logica reconfiguravel/logica reconfiguravel/cont100.vhd|
+Z19 !s107 C:/Users/joaor/Documents/UTPR-2024.1/Lógica Reconfigurável/cronometro/logica reconfiguravel/logica reconfiguravel/cont100.vhd|
+R12
+R13
+!s100 1M]Bl2;:^a[]deW3M55GB2
+!i10b 1
+Aa_cont100
+R2
+R3
+R4
+DEx4 work 7 cont100 0 22 UnGk[kf=IZcET=@SkQH_W3
+l34
+L15
+VD8L]4gV<=dhNWlKUYYTlR1
+R8
+31
+R17
+R18
+R19
+R12
+R13
+!s100 A2ei5SMLOPC6YJ8`6mPGg0
+!i10b 1
+Econt16
+Z20 w1712008742
+R2
+R3
+R4
+R5
+Z21 8C:/Users/joaor/Documents/UTPR-2024.1/Lógica Reconfigurável/cronometro/logica reconfiguravel/logica reconfiguravel/cont16.vhd
+Z22 FC:/Users/joaor/Documents/UTPR-2024.1/Lógica Reconfigurável/cronometro/logica reconfiguravel/logica reconfiguravel/cont16.vhd
+l0
+L5
+VRGlGfbn=TLZ5_5?_^MRj71
+R8
+31
+Z23 !s108 1713026194.486000
+Z24 !s90 -reportprogress|300|-93|-work|work|C:/Users/joaor/Documents/UTPR-2024.1/Lógica Reconfigurável/cronometro/logica reconfiguravel/logica reconfiguravel/cont16.vhd|
+Z25 !s107 C:/Users/joaor/Documents/UTPR-2024.1/Lógica Reconfigurável/cronometro/logica reconfiguravel/logica reconfiguravel/cont16.vhd|
+R12
+R13
+!s100 _KBWgUn@FoIWNVP7:Ijoi1
+!i10b 1
+Aa_cont16
+R2
+R3
+R4
+DEx4 work 6 cont16 0 22 RGlGfbn=TLZ5_5?_^MRj71
+l18
+L16
+VbNL3SVj5NgR@L^O>>;MIf2
+R8
+31
+R23
+R24
+R25
+R12
+R13
+!s100 ?;dREU3S4<NPmLCP;>L@N1
+!i10b 1
+Econt60
+Z26 w1712613621
+R2
+R3
+R4
+R5
+Z27 8C:/Users/joaor/Documents/UTPR-2024.1/Lógica Reconfigurável/cronometro/logica reconfiguravel/logica reconfiguravel/cont60.vhd
+Z28 FC:/Users/joaor/Documents/UTPR-2024.1/Lógica Reconfigurável/cronometro/logica reconfiguravel/logica reconfiguravel/cont60.vhd
+l0
+L5
+VUERkFki?]Kc8MVhEVnE9B3
+R8
+31
+Z29 !s108 1713026194.236000
+Z30 !s90 -reportprogress|300|-93|-work|work|C:/Users/joaor/Documents/UTPR-2024.1/Lógica Reconfigurável/cronometro/logica reconfiguravel/logica reconfiguravel/cont60.vhd|
+Z31 !s107 C:/Users/joaor/Documents/UTPR-2024.1/Lógica Reconfigurável/cronometro/logica reconfiguravel/logica reconfiguravel/cont60.vhd|
+R12
+R13
+!s100 C1JX61<M`lBFfe23fB=f>3
+!i10b 1
+Aa_cont60
+R2
+R3
+R4
+DEx4 work 6 cont60 0 22 UERkFki?]Kc8MVhEVnE9B3
+l34
+L15
+V2::jT`jP9JlPg2MLdogm@0
+R8
+31
+R29
+R30
+R31
+R12
+R13
+!s100 WZ[2JfQn1bl1fG@gHhEL41
+!i10b 1
+Ecronometro
+Z32 w1713025272
+R2
+R3
+R4
+R5
+Z33 8C:/Users/joaor/Documents/UTPR-2024.1/Lógica Reconfigurável/cronometro/logica reconfiguravel/logica reconfiguravel/cronometro.vhd
+Z34 FC:/Users/joaor/Documents/UTPR-2024.1/Lógica Reconfigurável/cronometro/logica reconfiguravel/logica reconfiguravel/cronometro.vhd
+l0
+L5
+VM6Ai7C513KkLZQSVRDoiI3
+R8
+31
+Z35 !s108 1713026194.334000
+Z36 !s90 -reportprogress|300|-93|-work|work|C:/Users/joaor/Documents/UTPR-2024.1/Lógica Reconfigurável/cronometro/logica reconfiguravel/logica reconfiguravel/cronometro.vhd|
+Z37 !s107 C:/Users/joaor/Documents/UTPR-2024.1/Lógica Reconfigurável/cronometro/logica reconfiguravel/logica reconfiguravel/cronometro.vhd|
+R12
+R13
+!s100 8XDEk^JkFoF[m^>R?A:iM1
+!i10b 1
+Aa_cronometro
+R2
+R3
+R4
+DEx4 work 10 cronometro 0 22 M6Ai7C513KkLZQSVRDoiI3
+l58
+L16
+VQ85hI1z9]kMeiFhCaK0bC1
+R8
+31
+R35
+R36
+R37
+R12
+R13
+!s100 EbXYAi[JnDD:?BZPLlDGf2
+!i10b 1
+Ecronometro_tb
+Z38 w1713027698
+R2
+R3
+R4
+R5
+Z39 8C:/Users/joaor/Documents/UTPR-2024.1/Lógica Reconfigurável/cronometro/logica reconfiguravel/logica reconfiguravel/cronometro_tb.vhd
+Z40 FC:/Users/joaor/Documents/UTPR-2024.1/Lógica Reconfigurável/cronometro/logica reconfiguravel/logica reconfiguravel/cronometro_tb.vhd
+l0
+L5
+VC[UH]Z:e;]Bl40g3V96MK1
+!s100 mUzh5fl=ZdS44Nh^21<`:2
+R8
+32
+!i10b 1
+Z41 !s108 1713027704.933000
+Z42 !s90 -reportprogress|300|-work|work|C:/Users/joaor/Documents/UTPR-2024.1/Lógica Reconfigurável/cronometro/logica reconfiguravel/logica reconfiguravel/cronometro_tb.vhd|
+Z43 !s107 C:/Users/joaor/Documents/UTPR-2024.1/Lógica Reconfigurável/cronometro/logica reconfiguravel/logica reconfiguravel/cronometro_tb.vhd|
+Z44 o-work work -O0
+R13
+Aa_cronometro_tb
+R2
+R3
+R4
+Z45 DEx4 work 13 cronometro_tb 0 22 C[UH]Z:e;]Bl40g3V96MK1
+l28
+L8
+VE<MS?W[dD:5VojAz@okQL1
+!s100 H;Ki`7L?6V?iO]@jEYW]o1
+R8
+32
+!i10b 1
+R41
+R42
+R43
+R44
+R13
+Edecoder_7seg
+Z46 w1712708732
+Z47 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z48 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+R2
+R3
+R4
+R5
+Z49 8C:/Users/joaor/Documents/UTPR-2024.1/Lógica Reconfigurável/cronometro/logica reconfiguravel/logica reconfiguravel/decoder7seg.vhd
+Z50 FC:/Users/joaor/Documents/UTPR-2024.1/Lógica Reconfigurável/cronometro/logica reconfiguravel/logica reconfiguravel/decoder7seg.vhd
+l0
+L6
+V=>B?n7WIe4k4L^`eI62Mb1
+R8
+31
+Z51 !s108 1713026194.382000
+Z52 !s90 -reportprogress|300|-93|-work|work|C:/Users/joaor/Documents/UTPR-2024.1/Lógica Reconfigurável/cronometro/logica reconfiguravel/logica reconfiguravel/decoder7seg.vhd|
+Z53 !s107 C:/Users/joaor/Documents/UTPR-2024.1/Lógica Reconfigurável/cronometro/logica reconfiguravel/logica reconfiguravel/decoder7seg.vhd|
+R12
+R13
+!s100 MFJBeVToaLdAQ3c2^IjYn1
+!i10b 1
+Adecoder_7seg_arch
+R47
+R48
+R2
+R3
+R4
+DEx4 work 12 decoder_7seg 0 22 =>B?n7WIe4k4L^`eI62Mb1
+l16
+L14
+V<KUAzg8EIJ1_AUc7ZO<FD0
+R8
+31
+R51
+R52
+R53
+R12
+R13
+!s100 fJ=QDgHSDRDl7gd][VKim1
+!i10b 1

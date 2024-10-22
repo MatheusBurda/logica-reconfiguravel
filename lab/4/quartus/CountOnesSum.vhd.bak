@@ -1,0 +1,22 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+entity CountOnesSum is
+    port (
+        input  : in std_logic_vector(3 downto 0);
+        count  : out std_logic_vector(2 downto 0)
+    );
+end CountOnesSum;
+
+architecture arch_CountOnesSum of CountOnesSum is
+    signal count_sig : integer range 0 to 4 := 0;
+begin
+
+    process(input)
+    begin
+        count_sig <= input(0) + input(1) + input(2) + input(3);
+        count <= std_logic_vector(to_unsigned(count_sig, 3));
+    end process;
+    
+end arch_CountOnesSum;

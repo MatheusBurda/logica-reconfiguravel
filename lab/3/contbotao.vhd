@@ -1,0 +1,53 @@
+--Library IEEE;
+--use IEEE.std_logic_1164.all;
+--use IEEE.numeric_std.all;
+--
+--Entity contbotão is 
+--    PORT(   
+--            CLK:  					IN  std_logic;
+--            SAIDA:        			OUT std_logic_vector(3 downto 0);
+--            EN:   					in std_logic;
+--    );
+--end entity;
+--
+--Architecture a_contbotão of contbotão is
+--
+--	Component cont16 is
+--				port(   
+--					RST:  IN  std_logic;
+--					CLK:  IN  std_logic;
+--					SAIDA:OUT std_logic_vector(3 downto 0);
+--					EN:   in  std_logic;
+--					CLR:  in  std_logic;
+--					LD:   in  std_logic;
+--					LOAD: in  std_logic_vector(3 downto 0)
+--					);
+--	end Component;
+--
+--SIGNAL CONT 			 				 : std_logic_vector(3 downto 0);
+--SIGNAL reset, clear               : std_logic;
+--SIGNAL load		                   : std_logic_vector(3 downto 0) := "0000";
+--SIGNAL ld 								 : std_logic := '0';
+--Begin
+--
+--
+--cont:cont16 port map(
+--	CLK   =>  CLK,
+--	RST   =>  reset,
+--	EN    =>  EN,
+--	LD    =>  ld,
+--	LOAD  =>  load,
+--	saida =>  CONT,
+--	CLR	=>  clear
+--);
+--uni_clr <= dec_en_uni_clr or CLR;
+--
+--reset <=
+--	'0' when enable = "1" else
+--	'1';
+--clear <=
+--	'1' when CONT = "0011" else
+--	'0';
+--	
+--SAIDA<= CONT;
+--End Architecture;

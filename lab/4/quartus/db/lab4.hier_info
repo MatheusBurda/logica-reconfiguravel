@@ -1,0 +1,189 @@
+|lab4
+RST => ~NO_FANOUT~
+CLK => CountOnesFor:c_for.clk
+CLK => CountOnesWhile:c_while.clk
+CLK => CountOnesCaseWhen:c_case_when.clk
+CLK => CountOnesIf:c_if.clk
+CLK => CountOnesSum:c_sum.clk
+input[0] => CountOnesFor:c_for.input[0]
+input[0] => CountOnesWhile:c_while.input[0]
+input[0] => CountOnesCaseWhen:c_case_when.input[0]
+input[0] => CountOnesIf:c_if.input[0]
+input[0] => CountOnesSum:c_sum.input[0]
+input[1] => CountOnesFor:c_for.input[1]
+input[1] => CountOnesWhile:c_while.input[1]
+input[1] => CountOnesCaseWhen:c_case_when.input[1]
+input[1] => CountOnesIf:c_if.input[1]
+input[1] => CountOnesSum:c_sum.input[1]
+input[2] => CountOnesFor:c_for.input[2]
+input[2] => CountOnesWhile:c_while.input[2]
+input[2] => CountOnesCaseWhen:c_case_when.input[2]
+input[2] => CountOnesIf:c_if.input[2]
+input[2] => CountOnesSum:c_sum.input[2]
+input[3] => CountOnesFor:c_for.input[3]
+input[3] => CountOnesWhile:c_while.input[3]
+input[3] => CountOnesCaseWhen:c_case_when.input[3]
+input[3] => CountOnesIf:c_if.input[3]
+input[3] => CountOnesSum:c_sum.input[3]
+count_for[0] <= CountOnesFor:c_for.count[0]
+count_for[1] <= CountOnesFor:c_for.count[1]
+count_for[2] <= CountOnesFor:c_for.count[2]
+count_while[0] <= CountOnesWhile:c_while.count[0]
+count_while[1] <= CountOnesWhile:c_while.count[1]
+count_while[2] <= CountOnesWhile:c_while.count[2]
+count_case[0] <= CountOnesCaseWhen:c_case_when.count[0]
+count_case[1] <= CountOnesCaseWhen:c_case_when.count[1]
+count_case[2] <= CountOnesCaseWhen:c_case_when.count[2]
+count_if[0] <= CountOnesIf:c_if.count[0]
+count_if[1] <= CountOnesIf:c_if.count[1]
+count_if[2] <= CountOnesIf:c_if.count[2]
+count_sum[0] <= CountOnesSum:c_sum.count[0]
+count_sum[1] <= CountOnesSum:c_sum.count[1]
+count_sum[2] <= CountOnesSum:c_sum.count[2]
+
+
+|lab4|CountOnesFor:c_for
+clk => count[0]~reg0.CLK
+clk => count[1]~reg0.CLK
+clk => count[2]~reg0.CLK
+input[0] => Add0.IN2
+input[0] => count_var.DATAA
+input[1] => count_var.OUTPUTSELECT
+input[1] => count_var.OUTPUTSELECT
+input[2] => count_var.OUTPUTSELECT
+input[2] => count_var.OUTPUTSELECT
+input[2] => count_var.OUTPUTSELECT
+input[3] => count_var.OUTPUTSELECT
+input[3] => count_var.OUTPUTSELECT
+input[3] => count_var.OUTPUTSELECT
+count[0] <= count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab4|CountOnesWhile:c_while
+clk => count[0]~reg0.CLK
+clk => count[1]~reg0.CLK
+clk => count[2]~reg0.CLK
+input[0] => Add0.IN2
+input[0] => count_var.DATAA
+input[1] => count_var.OUTPUTSELECT
+input[1] => count_var.OUTPUTSELECT
+input[2] => count_var.OUTPUTSELECT
+input[2] => count_var.OUTPUTSELECT
+input[2] => count_var.OUTPUTSELECT
+input[3] => count_var.OUTPUTSELECT
+input[3] => count_var.OUTPUTSELECT
+input[3] => count_var.OUTPUTSELECT
+count[0] <= count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab4|CountOnesCaseWhen:c_case_when
+clk => count_sig[0].CLK
+clk => count_sig[1].CLK
+clk => count_sig[2].CLK
+input[0] => Mux0.IN19
+input[0] => Mux1.IN19
+input[0] => Mux2.IN19
+input[1] => Mux0.IN18
+input[1] => Mux1.IN18
+input[1] => Mux2.IN18
+input[2] => Mux0.IN17
+input[2] => Mux1.IN17
+input[2] => Mux2.IN17
+input[3] => Mux0.IN16
+input[3] => Mux1.IN16
+input[3] => Mux2.IN16
+count[0] <= count_sig[0].DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count_sig[1].DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count_sig[2].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab4|CountOnesIf:c_if
+clk => count_sig[0].CLK
+clk => count_sig[1].CLK
+clk => count_sig[2].CLK
+input[0] => Equal0.IN3
+input[0] => Equal1.IN3
+input[0] => Equal2.IN2
+input[0] => Equal3.IN3
+input[0] => Equal4.IN2
+input[0] => Equal5.IN3
+input[0] => Equal6.IN1
+input[0] => Equal7.IN3
+input[0] => Equal8.IN2
+input[0] => Equal9.IN3
+input[0] => Equal10.IN1
+input[0] => Equal11.IN3
+input[0] => Equal12.IN1
+input[0] => Equal13.IN3
+input[0] => Equal14.IN0
+input[0] => Equal15.IN3
+input[1] => Equal0.IN2
+input[1] => Equal1.IN2
+input[1] => Equal2.IN3
+input[1] => Equal3.IN2
+input[1] => Equal4.IN1
+input[1] => Equal5.IN1
+input[1] => Equal6.IN3
+input[1] => Equal7.IN2
+input[1] => Equal8.IN1
+input[1] => Equal9.IN1
+input[1] => Equal10.IN3
+input[1] => Equal11.IN2
+input[1] => Equal12.IN0
+input[1] => Equal13.IN0
+input[1] => Equal14.IN3
+input[1] => Equal15.IN2
+input[2] => Equal0.IN1
+input[2] => Equal1.IN1
+input[2] => Equal2.IN1
+input[2] => Equal3.IN1
+input[2] => Equal4.IN3
+input[2] => Equal5.IN2
+input[2] => Equal6.IN2
+input[2] => Equal7.IN1
+input[2] => Equal8.IN0
+input[2] => Equal9.IN0
+input[2] => Equal10.IN0
+input[2] => Equal11.IN0
+input[2] => Equal12.IN3
+input[2] => Equal13.IN2
+input[2] => Equal14.IN2
+input[2] => Equal15.IN1
+input[3] => Equal0.IN0
+input[3] => Equal1.IN0
+input[3] => Equal2.IN0
+input[3] => Equal3.IN0
+input[3] => Equal4.IN0
+input[3] => Equal5.IN0
+input[3] => Equal6.IN0
+input[3] => Equal7.IN0
+input[3] => Equal8.IN3
+input[3] => Equal9.IN2
+input[3] => Equal10.IN2
+input[3] => Equal11.IN1
+input[3] => Equal12.IN2
+input[3] => Equal13.IN1
+input[3] => Equal14.IN1
+input[3] => Equal15.IN0
+count[0] <= count_sig[0].DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count_sig[1].DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count_sig[2].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab4|CountOnesSum:c_sum
+clk => count_sig[0].CLK
+clk => count_sig[1].CLK
+clk => count_sig[2].CLK
+input[0] => Add0.IN2
+input[1] => Add0.IN1
+input[2] => Add1.IN4
+input[3] => Add2.IN6
+count[0] <= count_sig[0].DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count_sig[1].DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count_sig[2].DB_MAX_OUTPUT_PORT_TYPE
+
+
